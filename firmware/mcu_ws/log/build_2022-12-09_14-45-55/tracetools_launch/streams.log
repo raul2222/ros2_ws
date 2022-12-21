@@ -1,0 +1,42 @@
+[1.302s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed
+[1.616s] running egg_info
+[1.620s] creating ../../../build/tracetools_launch/tracetools_launch.egg-info
+[1.620s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[1.621s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[1.621s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[1.621s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.656s] reading manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.662s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[1.662s] running build
+[1.662s] running build_py
+[1.662s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build
+[1.662s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib
+[1.662s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.662s] copying tracetools_launch/action.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.662s] copying tracetools_launch/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[1.662s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.663s] copying tracetools_launch/actions/ld_preload.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.663s] copying tracetools_launch/actions/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[1.663s] running install
+[1.663s] running install_lib
+[1.664s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.664s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/action.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.664s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.665s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/ld_preload.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.665s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[1.665s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[1.667s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/action.py to action.cpython-38.pyc
+[1.669s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/ld_preload.py to ld_preload.cpython-38.pyc
+[1.670s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/__init__.py to __init__.cpython-38.pyc
+[1.670s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/__init__.py to __init__.cpython-38.pyc
+[1.671s] running install_data
+[1.671s] copying package.xml -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tracetools_launch
+[1.672s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[1.672s] copying launch/example.launch.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[1.672s] copying resource/tracetools_launch -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.673s] running install_egg_info
+[1.675s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch-1.0.2-py3.8.egg-info
+[1.675s] running install_scripts
+[1.706s] writing list of installed files to '/home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/install.log'
+[1.729s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed

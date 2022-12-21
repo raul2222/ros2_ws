@@ -1,0 +1,36 @@
+[1.327s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed
+[1.531s] running egg_info
+[1.532s] creating ../../../build/ament_lint/ament_lint.egg-info
+[1.532s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.532s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.532s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.532s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.533s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.534s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.572s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.573s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.574s] running build
+[1.574s] running build_py
+[1.574s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build
+[1.574s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib
+[1.574s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.574s] copying ament_lint/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.575s] copying ament_lint/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.575s] running install
+[1.575s] running install_lib
+[1.576s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.576s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.576s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.577s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[1.580s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.580s] running install_data
+[1.580s] copying package.xml -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/share/ament_lint
+[1.580s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/share/ament_index
+[1.580s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[1.580s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.581s] copying resource/ament_lint -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.581s] running install_egg_info
+[1.582s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.7-py3.8.egg-info
+[1.583s] running install_scripts
+[1.601s] writing list of installed files to '/home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/install.log'
+[1.632s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed

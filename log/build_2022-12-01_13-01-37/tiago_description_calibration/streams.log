@@ -1,0 +1,24 @@
+[0.487s] Invoking command in '/home/raul/bookros2_ws/build/tiago_description_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/tiago_description_calibration -- -j8 -l8
+[0.843s] Invoked command in '/home/raul/bookros2_ws/build/tiago_description_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/tiago_description_calibration -- -j8 -l8
+[1.044s] Invoking command in '/home/raul/bookros2_ws/build/tiago_description_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/tiago_description_calibration
+[1.107s] -- Install configuration: ""
+[1.107s] -- Execute custom install script
+[1.107s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/urdf/calibration/calibration_constants.urdf.xacro
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/urdf/calibration/extrinsic_camera_calibration_constants.urdf.xacro
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/urdf/deg_to_rad.xacro
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/ament_index/resource_index/package_run_dependencies/tiago_description_calibration
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/ament_index/resource_index/parent_prefix_path/tiago_description_calibration
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/environment/ament_prefix_path.sh
+[1.108s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/environment/ament_prefix_path.dsv
+[1.110s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/environment/path.sh
+[1.110s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/environment/path.dsv
+[1.111s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/local_setup.bash
+[1.111s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/local_setup.sh
+[1.112s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/local_setup.zsh
+[1.112s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/local_setup.dsv
+[1.112s] -- Symlinking: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/package.dsv
+[1.126s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/ament_index/resource_index/packages/tiago_description_calibration
+[1.129s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/cmake/tiago_description_calibrationConfig.cmake
+[1.129s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/cmake/tiago_description_calibrationConfig-version.cmake
+[1.131s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/tiago_description_calibration/share/tiago_description_calibration/package.xml
+[1.201s] Invoked command in '/home/raul/bookros2_ws/build/tiago_description_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/tiago_description_calibration

@@ -1,0 +1,35 @@
+[0.416s] Invoking command in '/home/raul/bookros2_ws/build/br2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_navigation
+[0.492s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.492s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.070s] -- Configuring done
+[1.075s] -- Generating done
+[1.077s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_navigation
+[1.187s] Invoked command in '/home/raul/bookros2_ws/build/br2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_navigation
+[1.193s] Invoking command in '/home/raul/bookros2_ws/build/br2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_navigation -- -j10 -l10
+[1.415s] Invoked command in '/home/raul/bookros2_ws/build/br2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_navigation -- -j10 -l10
+[1.515s] Invoking command in '/home/raul/bookros2_ws/build/br2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_navigation
+[1.541s] -- Install configuration: ""
+[1.541s] -- Execute custom install script
+[1.542s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/launch/navigation_launch.py
+[1.542s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/launch/tiago_navigation.launch.py
+[1.543s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/params/mapper_params_online_async.yaml
+[1.543s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/params/tiago_nav_params.yaml
+[1.543s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/maps/home.pgm
+[1.544s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/maps/home.yaml
+[1.545s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/ament_index/resource_index/package_run_dependencies/br2_navigation
+[1.545s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/ament_index/resource_index/parent_prefix_path/br2_navigation
+[1.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/environment/ament_prefix_path.sh
+[1.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/environment/ament_prefix_path.dsv
+[1.548s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/environment/path.sh
+[1.548s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/environment/path.dsv
+[1.549s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/local_setup.bash
+[1.549s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/local_setup.sh
+[1.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/local_setup.zsh
+[1.551s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/local_setup.dsv
+[1.551s] -- Symlinking: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/package.dsv
+[1.579s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/ament_index/resource_index/packages/br2_navigation
+[1.579s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/cmake/br2_navigationConfig.cmake
+[1.580s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/cmake/br2_navigationConfig-version.cmake
+[1.581s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_navigation/share/br2_navigation/package.xml
+[1.652s] Invoked command in '/home/raul/bookros2_ws/build/br2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_navigation

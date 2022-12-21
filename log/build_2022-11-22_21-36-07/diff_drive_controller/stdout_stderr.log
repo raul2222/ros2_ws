@@ -1,0 +1,41 @@
+[ 13%] Built target gmock_main
+[ 33%] Built target gmock
+[ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[ 53%] Built target test_accumulator
+[ 66%] Built target test_load_diff_drive_controller
+[ 73%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[ 86%] Built target diff_drive_controller
+[35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[100%] Built target test_diff_drive_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller//diff_drive_plugin.xml
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/odometry.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/rolling_mean_accumulator.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/speed_limiter.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/visibility_control.h
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml

@@ -1,0 +1,10 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/install/strip.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/install/local.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/edit_cache.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/test.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/rmw_microxrcedds.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/install.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/list_install_components.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/rebuild_cache.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/rmw_microxrcedds_uninstall.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rmw_microxrcedds/CMakeFiles/uninstall.dir

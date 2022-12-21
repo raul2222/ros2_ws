@@ -1,0 +1,41 @@
+[0.780s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed
+[1.024s] running egg_info
+[1.030s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[1.030s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[1.030s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[1.030s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[1.030s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[1.030s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[1.030s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.065s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.066s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.067s] running build
+[1.067s] running build_py
+[1.067s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build
+[1.067s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib
+[1.067s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.068s] copying ament_uncrustify/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.068s] copying ament_uncrustify/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.068s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[1.068s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[1.069s] running install
+[1.070s] running install_lib
+[1.071s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.071s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[1.071s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[1.071s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.072s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.072s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[1.076s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[1.077s] running install_data
+[1.077s] copying package.xml -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_uncrustify
+[1.078s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index
+[1.078s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index
+[1.078s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[1.078s] copying resource/ament_uncrustify -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[1.078s] running install_egg_info
+[1.080s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify-0.9.7-py3.8.egg-info
+[1.081s] running install_scripts
+[1.101s] Installing ament_uncrustify script to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/bin
+[1.101s] writing list of installed files to '/home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/install.log'
+[1.133s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed

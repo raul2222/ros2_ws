@@ -1,0 +1,55 @@
+[0.049s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.217s] [ 10%] Built target br2_battery_checker_bt_node
+[0.217s] [ 20%] Built target br2_move_bt_node
+[0.221s] [ 30%] Built target br2_recharge_bt_node
+[0.238s] [ 40%] Built target gtest
+[0.238s] [ 50%] Built target patrolling_main
+[0.245s] [ 55%] [32mBuilding CXX object CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o[0m
+[0.246s] [ 65%] Built target br2_track_objects_bt_node
+[0.258s] [ 75%] Built target br2_get_waypoint_bt_node
+[0.285s] [ 85%] Built target gtest_main
+[0.309s] [35m[1mScanning dependencies of target bt_action_test[0m
+[0.562s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[7.337s] [ 95%] [32m[1mLinking CXX shared library libbr2_patrol_bt_node.so[0m
+[7.682s] [ 95%] Built target br2_patrol_bt_node
+[16.353s] [100%] [32m[1mLinking CXX executable bt_action_test[0m
+[17.095s] [100%] Built target bt_action_test
+[17.111s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[17.184s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_bt_patrolling
+[17.194s] -- Install configuration: "Debug"
+[17.195s] -- Execute custom install script
+[17.196s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+[17.209s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+[17.221s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+[17.233s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+[17.244s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+[17.256s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+[17.268s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+[17.281s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+[17.292s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+[17.304s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+[17.315s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+[17.327s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+[17.339s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+[17.351s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+[17.362s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+[17.375s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+[17.387s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+[17.399s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+[17.412s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+[17.424s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+[17.436s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+[17.448s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+[17.460s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+[17.472s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+[17.483s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+[17.495s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+[17.508s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+[17.521s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+[17.533s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+[17.544s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.557s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.570s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+[17.582s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+[17.595s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml
+[17.613s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_bt_patrolling

@@ -1,0 +1,62 @@
+[0.062s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_bt_patrolling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_bt_patrolling
+[0.709s] -- The C compiler identification is GNU 9.4.0
+[0.709s] -- The CXX compiler identification is GNU 9.4.0
+[0.710s] -- Check for working C compiler: /usr/bin/cc
+[1.041s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.042s] -- Detecting C compiler ABI info
+[1.367s] -- Detecting C compiler ABI info - done
+[1.412s] -- Detecting C compile features
+[1.412s] -- Detecting C compile features - done
+[1.418s] -- Check for working CXX compiler: /usr/bin/c++
+[1.694s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.695s] -- Detecting CXX compiler ABI info
+[2.088s] -- Detecting CXX compiler ABI info - done
+[2.121s] -- Detecting CXX compile features
+[2.121s] -- Detecting CXX compile features - done
+[2.130s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.218s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.218s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.724s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.789s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.913s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.925s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.255s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.296s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.643s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.652s] -- Looking for pthread.h
+[3.918s] -- Looking for pthread.h - found
+[3.919s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.129s] -- Looking for pthread_create in pthreads
+[4.234s] -- Looking for pthread_create in pthreads - not found
+[4.234s] -- Looking for pthread_create in pthread
+[4.353s] -- Looking for pthread_create in pthread - found
+[4.354s] -- Found Threads: TRUE  
+[4.669s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[4.722s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[4.856s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.906s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[5.349s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[5.354s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[5.355s] -- ZeroMQ found.
+[5.380s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.489s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.492s] -- Check if compiler accepts -pthread
+[5.601s] -- Check if compiler accepts -pthread - yes
+[5.614s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.619s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.620s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/book_ros2/br2_bt_patrolling/include
+[5.620s] -- Configured cppcheck exclude dirs and/or files: 
+[5.623s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.623s] -- Configured cpplint exclude dirs and/or files: 
+[5.623s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.624s] -- Added test 'lint_cmake' to check CMake code style
+[5.625s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.628s] -- Added test 'uncrustify' to check C / C++ code style
+[5.628s] -- Configured uncrustify additional arguments: 
+[5.629s] -- Added test 'xmllint' to check XML markup files
+[5.637s] -- Configuring done
+[5.725s] -- Generating done
+[5.728s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_bt_patrolling

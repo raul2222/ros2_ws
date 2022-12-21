@@ -1,0 +1,145 @@
+[0.093s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/home/raul/bookros2_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/mcu_ws/install
+[0.133s] Not searching for unused variables given on the command line.
+[0.179s] -- The C compiler identification is GNU 8.2.0
+[0.268s] -- The CXX compiler identification is GNU 8.2.0
+[0.279s] -- Check for working C compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+[0.400s] -- Check for working C compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.485s] -- Detecting C compiler ABI info - done
+[0.496s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.499s] -- Check for working CXX compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+[0.588s] -- Check for working CXX compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -- works
+[0.590s] -- Detecting CXX compiler ABI info
+[0.690s] -- Detecting CXX compiler ABI info - done
+[0.704s] -- Detecting CXX compile features
+[0.704s] -- Detecting CXX compile features - done
+[0.774s] -- Found PythonInterp: /home/raul/bookros2_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.774s] -- Using PYTHON_EXECUTABLE: /home/raul/bookros2_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.8_env/bin/python3
+[0.955s] -- Configuring done
+[0.959s] -- Generating done
+[0.960s] -- Build files have been written to: /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor
+[1.183s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/home/raul/bookros2_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/mcu_ws/install
+[1.189s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor -- -j6 -l6
+[1.241s] make[4]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[1.241s] /usr/bin/cmake -S/home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor -B/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+[1.250s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/progress.marks
+[1.272s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.275s] make[5]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[1.275s] /usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/depend
+[1.277s] make[6]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[1.277s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake --color=
+[1.292s] Dependee "/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake" is newer than depender "/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+[1.292s] Dependee "/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+[1.292s] [35m[1mScanning dependencies of target tinydir-1.2.4[0m
+[1.294s] make[6]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[1.295s] /usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/build
+[1.298s] make[6]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[1.331s] [ 12%] [34m[1mCreating directories for 'tinydir-1.2.4'[0m
+[1.332s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[1.344s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[1.358s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4
+[1.372s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/tmp
+[1.384s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp
+[1.395s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src
+[1.410s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp
+[1.423s] /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-mkdir
+[1.448s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'tinydir-1.2.4'[0m
+[1.450s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/download-tinydir-1.2.4.cmake
+[1.463s] -- Downloading...
+[1.463s]    dst='/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[1.463s]    timeout='none'
+[1.463s] -- Using src='https://github.com/cxong/tinydir/archive/1.2.4.tar.gz'
+[2.565s] -- verifying file...
+[2.567s]        file='/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[2.567s] -- Downloading... done
+[2.568s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/verify-tinydir-1.2.4.cmake
+[2.581s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/extract-tinydir-1.2.4.cmake
+[2.594s] -- extracting...
+[2.594s]      src='/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[2.594s]      dst='/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[2.595s] -- extracting... [tar xfz]
+[2.611s] -- extracting... [analysis]
+[2.612s] -- extracting... [rename]
+[2.612s] -- extracting... [clean up]
+[2.612s] -- extracting... done
+[2.613s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-download
+[2.656s] [ 37%] [34m[1mPerforming patch step for 'tinydir-1.2.4'[0m
+[2.658s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E copy /home/raul/bookros2_ws/firmware/mcu_ws/ros2/tinydir_vendor/tinydir_cmakelists.txt /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeLists.txt
+[2.680s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-patch
+[2.680s] [ 50%] [34m[1mNo update step for 'tinydir-1.2.4'[0m
+[2.687s] /usr/bin/cmake -E echo_append
+[2.702s] /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-update
+[2.748s] [ 62%] [34m[1mPerforming configure step for 'tinydir-1.2.4'[0m
+[2.748s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install "-DCMAKE_CXX_FLAGS=-mlongcalls -Wno-frame-address -mlongcalls -Wno-frame-address" -DCMAKE_C_COMPILER=/home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_CXX_COMPILER=/home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -DCMAKE_TOOLCHAIN_FILE=/home/raul/bookros2_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake "-GUnix Makefiles" /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[2.756s] Re-run cmake no build system arguments
+[2.897s] -- The C compiler identification is GNU 8.2.0
+[3.019s] -- The CXX compiler identification is GNU 8.2.0
+[3.038s] -- Check for working C compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+[3.262s] -- Check for working C compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -- works
+[3.262s] -- Detecting C compiler ABI info
+[3.315s] -- Detecting C compiler ABI info - done
+[3.331s] -- Detecting C compile features
+[3.331s] -- Detecting C compile features - done
+[3.332s] -- Check for working CXX compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+[3.436s] -- Check for working CXX compiler: /home/raul/bookros2_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -- works
+[3.436s] -- Detecting CXX compiler ABI info
+[3.521s] -- Detecting CXX compiler ABI info - done
+[3.531s] -- Detecting CXX compile features
+[3.532s] -- Detecting CXX compile features - done
+[3.533s] -- Configuring done
+[3.534s] -- Generating done
+[3.535s] -- Build files have been written to: /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[3.537s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-configure
+[3.562s] [ 75%] [34m[1mPerforming build step for 'tinydir-1.2.4'[0m
+[3.563s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make
+[3.566s] make[7]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.566s] /usr/bin/cmake -S/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+[3.578s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+[3.588s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[3.590s] make[8]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.590s] make[8]: Nothing to be done for 'all'.
+[3.590s] make[8]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.591s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+[3.601s] make[7]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.602s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-build
+[3.626s] [ 87%] [34m[1mPerforming install step for 'tinydir-1.2.4'[0m
+[3.627s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make install
+[3.630s] make[7]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.631s] /usr/bin/cmake -S/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+[3.644s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+[3.656s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[3.657s] make[8]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.658s] make[8]: Nothing to be done for 'all'.
+[3.658s] make[8]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.658s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+[3.673s] /usr/bin/make -f CMakeFiles/Makefile2 preinstall
+[3.673s] make[8]: Entering directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.673s] make[8]: Nothing to be done for 'preinstall'.
+[3.673s] make[8]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.684s] [36mInstall the project...[0m
+[3.684s] /usr/bin/cmake -P cmake_install.cmake
+[3.695s] -- Install configuration: ""
+[3.695s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install/include/tinydir/tinydir.h
+[3.696s] make[7]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[3.696s] cd /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-install
+[3.726s] [100%] [34m[1mCompleted 'tinydir-1.2.4'[0m
+[3.727s] /usr/bin/cmake -E make_directory /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles
+[3.741s] /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4-complete
+[3.756s] /usr/bin/cmake -E touch /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-done
+[3.771s] make[6]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[3.787s] [100%] Built target tinydir-1.2.4
+[3.788s] make[5]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[3.788s] /usr/bin/cmake -E cmake_progress_start /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles 0
+[3.803s] make[4]: Leaving directory '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor'
+[3.807s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor -- -j6 -l6
+[3.871s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor
+[3.896s] -- Install configuration: "Debug"
+[3.896s] -- Up-to-date: /home/raul/bookros2_ws/firmware/mcu_ws/install
+[3.896s] -- Up-to-date: /home/raul/bookros2_ws/firmware/mcu_ws/install/include
+[3.897s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/install/include/tinydir
+[3.897s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/install/include/tinydir/tinydir.h
+[3.897s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/package.xml
+[3.899s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig.cmake
+[3.899s] -- Installing: /home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig-version.cmake
+[3.914s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_uncrustify:/home/raul/bookros2_ws/firmware/dev_ws/install/domain_coordinator:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_xmllint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pyflakes:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pycodestyle:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_package:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint_cmake:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_index_python:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cpplint:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_cppcheck:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_tidy:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/mcu_ws/build/tinydir_vendor

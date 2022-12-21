@@ -1,0 +1,51 @@
+[ 10%] Built target br2_battery_checker_bt_node
+[ 20%] Built target br2_move_bt_node
+[ 30%] Built target br2_recharge_bt_node
+[ 40%] Built target gtest
+[ 50%] Built target patrolling_main
+[ 55%] [32mBuilding CXX object CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o[0m
+[ 65%] Built target br2_track_objects_bt_node
+[ 75%] Built target br2_get_waypoint_bt_node
+[ 85%] Built target gtest_main
+[35m[1mScanning dependencies of target bt_action_test[0m
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library libbr2_patrol_bt_node.so[0m
+[ 95%] Built target br2_patrol_bt_node
+[100%] [32m[1mLinking CXX executable bt_action_test[0m
+[100%] Built target bt_action_test
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml

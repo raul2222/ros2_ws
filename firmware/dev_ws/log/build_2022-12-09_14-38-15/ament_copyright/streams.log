@@ -1,0 +1,96 @@
+[0.875s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed
+[1.126s] running egg_info
+[1.126s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[1.126s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[1.127s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[1.127s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[1.127s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[1.127s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[1.128s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.172s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.172s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.172s] running build
+[1.173s] running build_py
+[1.173s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build
+[1.173s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib
+[1.173s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.173s] copying ament_copyright/crawler.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.173s] copying ament_copyright/copyright_names.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.173s] copying ament_copyright/parser.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.174s] copying ament_copyright/licenses.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.174s] copying ament_copyright/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.174s] copying ament_copyright/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.174s] copying ament_copyright/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.174s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.174s] copying ament_copyright/template/mit_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.175s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.175s] copying ament_copyright/template/apache2_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/boost1_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/bsd2_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/lgplv3_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/apache2_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/gplv3_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.176s] copying ament_copyright/template/bsd2_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.177s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.177s] copying ament_copyright/template/gplv3_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.177s] copying ament_copyright/template/mit_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.177s] copying ament_copyright/template/gplv3_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.177s] copying ament_copyright/template/lgplv3_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/apache2_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/boost1_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/boost1_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/bsd2_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.178s] copying ament_copyright/template/mit_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.179s] running install
+[1.179s] running install_lib
+[1.184s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.184s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.184s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.185s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.186s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.186s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.186s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.186s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.186s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/template
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.187s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright
+[1.187s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/crawler.py to crawler.cpython-38.pyc
+[1.189s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-38.pyc
+[1.189s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/parser.py to parser.cpython-38.pyc
+[1.191s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/licenses.py to licenses.cpython-38.pyc
+[1.191s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/main.py to main.cpython-38.pyc
+[1.194s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/__init__.py to __init__.cpython-38.pyc
+[1.194s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.194s] running install_data
+[1.195s] copying package.xml -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[1.195s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/share/ament_index
+[1.195s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[1.196s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.196s] copying resource/ament_copyright -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.196s] running install_egg_info
+[1.197s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info
+[1.198s] running install_scripts
+[1.221s] Installing ament_copyright script to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/bin
+[1.221s] writing list of installed files to '/home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/install.log'
+[1.246s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed

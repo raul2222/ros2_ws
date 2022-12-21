@@ -1,0 +1,95 @@
+[0.079s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_bt_bumpgo
+[97.430s] -- The C compiler identification is GNU 9.4.0
+[97.435s] -- The CXX compiler identification is GNU 9.4.0
+[97.436s] -- Check for working C compiler: /usr/bin/cc
+[97.436s] -- Check for working C compiler: /usr/bin/cc -- works
+[97.436s] -- Detecting C compiler ABI info
+[97.436s] -- Detecting C compiler ABI info - done
+[97.436s] -- Detecting C compile features
+[97.437s] -- Detecting C compile features - done
+[97.437s] -- Check for working CXX compiler: /usr/bin/c++
+[97.437s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[97.438s] -- Detecting CXX compiler ABI info
+[97.439s] -- Detecting CXX compiler ABI info - done
+[97.439s] -- Detecting CXX compile features
+[97.439s] -- Detecting CXX compile features - done
+[97.440s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[97.440s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[97.440s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[97.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[97.440s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[97.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[97.441s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[97.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[97.441s] -- Found FastRTPS: /opt/ros/foxy/include  
+[97.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[97.442s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[97.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[97.443s] -- Looking for pthread.h
+[97.443s] -- Looking for pthread.h - found
+[97.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[97.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[97.444s] -- Looking for pthread_create in pthreads
+[97.444s] -- Looking for pthread_create in pthreads - not found
+[97.444s] -- Looking for pthread_create in pthread
+[97.445s] -- Looking for pthread_create in pthread - found
+[97.445s] -- Found Threads: TRUE  
+[97.445s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[97.456s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[97.505s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[97.505s] -- ZeroMQ found.
+[97.615s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[98.002s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[98.012s] -- Check if compiler accepts -pthread
+[98.491s] -- Check if compiler accepts -pthread - yes
+[98.519s] -- Added test 'copyright' to check source files copyright and LICENSE
+[98.523s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[98.524s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include
+[98.524s] -- Configured cppcheck exclude dirs and/or files: 
+[98.528s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[98.528s] -- Configured cpplint exclude dirs and/or files: 
+[98.537s] -- Added test 'lint_cmake' to check CMake code style
+[98.544s] -- Added test 'uncrustify' to check C / C++ code style
+[98.545s] -- Configured uncrustify additional arguments: 
+[98.556s] -- Added test 'xmllint' to check XML markup files
+[98.599s] -- Configuring done
+[98.677s] -- Generating done
+[98.680s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_bt_bumpgo
+[98.704s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_bt_bumpgo
+[98.706s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[99.652s] [35m[1mScanning dependencies of target br2_forward_bt_node[0m
+[99.653s] [  5%] [32mBuilding CXX object CMakeFiles/br2_forward_bt_node.dir/src/br2_bt_bumpgo/Forward.cpp.o[0m
+[105.629s] [ 11%] [32m[1mLinking CXX shared library libbr2_forward_bt_node.so[0m
+[105.839s] [ 11%] Built target br2_forward_bt_node
+[105.852s] [35m[1mScanning dependencies of target gtest_main[0m
+[105.879s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[107.126s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[107.170s] [ 22%] Built target gtest_main
+[107.185s] [35m[1mScanning dependencies of target gtest[0m
+[107.214s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[111.016s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[111.089s] [ 33%] Built target gtest
+[111.104s] [35m[1mScanning dependencies of target bt_forward[0m
+[111.155s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/bt_forward.dir/bt_forward_main.cpp.o[0m
+[114.257s] [ 44%] [32m[1mLinking CXX executable bt_forward[0m
+[114.442s] [ 44%] Built target bt_forward
+[114.456s] [35m[1mScanning dependencies of target bt_action_test[0m
+[114.545s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[122.192s] [ 55%] [32m[1mLinking CXX executable bt_action_test[0m
+[122.655s] [ 55%] Built target bt_action_test
+[122.669s] [35m[1mScanning dependencies of target br2_is_obstacle_bt_node[0m
+[122.718s] [ 61%] [32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o[0m
+[129.308s] [ 66%] [32m[1mLinking CXX shared library libbr2_is_obstacle_bt_node.so[0m
+[129.617s] [ 66%] Built target br2_is_obstacle_bt_node
+[129.631s] [35m[1mScanning dependencies of target br2_back_bt_node[0m
+[129.679s] [ 72%] [32mBuilding CXX object CMakeFiles/br2_back_bt_node.dir/src/br2_bt_bumpgo/Back.cpp.o[0m
+[134.264s] [ 77%] [32m[1mLinking CXX shared library libbr2_back_bt_node.so[0m
+[134.463s] [ 77%] Built target br2_back_bt_node
+[134.476s] [35m[1mScanning dependencies of target bt_bumpgo[0m
+[134.522s] [ 83%] [32mBuilding CXX object CMakeFiles/bt_bumpgo.dir/src/bt_bumpgo_main.cpp.o[0m
+[137.889s] [ 88%] [32m[1mLinking CXX executable bt_bumpgo[0m
+[138.087s] [ 88%] Built target bt_bumpgo
+[138.114s] [35m[1mScanning dependencies of target br2_turn_bt_node[0m
+[138.237s] [ 94%] [32mBuilding CXX object CMakeFiles/br2_turn_bt_node.dir/src/br2_bt_bumpgo/Turn.cpp.o[0m
+[142.436s] [100%] [32m[1mLinking CXX shared library libbr2_turn_bt_node.so[0m
+[142.638s] [100%] Built target br2_turn_bt_node

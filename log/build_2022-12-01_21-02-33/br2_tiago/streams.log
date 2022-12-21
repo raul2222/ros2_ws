@@ -1,0 +1,30 @@
+[0.138s] Invoking command in '/home/raul/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_tiago -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_tiago
+[0.214s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.901s] -- Configuring done
+[1.920s] -- Generating done
+[1.921s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_tiago
+[1.974s] Invoked command in '/home/raul/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_tiago -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_tiago
+[1.978s] Invoking command in '/home/raul/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tiago -- -j10 -l10
+[2.771s] Invoked command in '/home/raul/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tiago -- -j10 -l10
+[3.134s] Invoking command in '/home/raul/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tiago
+[3.956s] -- Install configuration: ""
+[3.957s] -- Execute custom install script
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/launch/sim.launch.py
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/package_run_dependencies/br2_tiago
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/parent_prefix_path/br2_tiago
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.sh
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.dsv
+[3.957s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.sh
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.dsv
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.bash
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.sh
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.zsh
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.dsv
+[3.958s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/package.dsv
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/packages/br2_tiago
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig.cmake
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig-version.cmake
+[3.958s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/package.xml
+[3.964s] Invoked command in '/home/raul/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tiago

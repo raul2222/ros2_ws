@@ -1,0 +1,6 @@
+Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/raul/bookros2_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor
+Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/raul/bookros2_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor
+Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor -- -j6 -l6
+Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor -- -j6 -l6
+Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor
+Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor

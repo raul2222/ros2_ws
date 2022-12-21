@@ -1,0 +1,293 @@
+[0.171s] Invoking command in '/home/raul/bookros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/controller_manager_msgs -- -j8 -l8
+[0.562s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[0.563s] [ 12%] Built target controller_manager_msgs__cpp
+[0.563s] [ 24%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[0.563s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[0.563s] [ 48%] Built target controller_manager_msgs__rosidl_typesupport_c
+[0.564s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[0.564s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[0.564s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[0.564s] [ 84%] Built target controller_manager_msgs
+[0.714s] [ 85%] Built target controller_manager_msgs__py
+[0.832s] [ 96%] Built target controller_manager_msgs__python
+[0.985s] [ 97%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[1.027s] [ 98%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.028s] [100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[1.228s] Invoked command in '/home/raul/bookros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/controller_manager_msgs -- -j8 -l8
+[3.430s] Invoking command in '/home/raul/bookros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/controller_manager_msgs
+[3.478s] -- Install configuration: ""
+[3.479s] -- Execute custom install script
+[3.479s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[3.484s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.h
+[3.484s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__functions.h
+[3.497s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.h
+[3.497s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.498s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.h
+[3.499s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.h
+[3.499s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[3.499s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[3.499s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[3.500s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__functions.h
+[3.501s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.h
+[3.501s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__type_support.h
+[3.502s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[3.503s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[3.503s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[3.504s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[3.504s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[3.509s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[3.509s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[3.509s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__functions.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__type_support.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__functions.h
+[3.510s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__functions.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__type_support.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[3.511s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[3.512s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[3.512s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[3.512s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[3.513s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[3.514s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[3.514s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[3.515s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.h
+[3.515s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.h
+[3.516s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.h
+[3.516s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.h
+[3.516s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.h
+[3.516s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.h
+[3.517s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.h
+[3.517s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.h
+[3.517s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.h
+[3.517s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[3.518s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[3.520s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[3.520s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[3.521s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.521s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[3.521s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_c.h
+[3.523s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[3.523s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[3.523s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[3.524s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_c.h
+[3.524s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[3.524s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_c.h
+[3.525s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[3.526s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[3.526s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[3.531s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.532s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[3.533s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[3.533s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[3.533s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.533s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[3.535s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.539s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[3.539s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[3.539s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_c.h
+[3.540s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[3.545s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_c.h
+[3.545s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[3.546s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[3.546s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[3.546s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.hpp
+[3.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[3.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[3.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[3.547s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.hpp
+[3.550s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[3.551s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[3.551s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[3.551s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__builder.hpp
+[3.551s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.hpp
+[3.554s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__traits.hpp
+[3.554s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[3.554s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[3.555s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[3.555s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[3.555s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[3.555s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__builder.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.hpp
+[3.556s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__traits.hpp
+[3.557s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[3.557s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[3.557s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[3.558s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__builder.hpp
+[3.558s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.hpp
+[3.558s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__traits.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[3.559s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[3.560s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.hpp
+[3.560s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.hpp
+[3.560s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[3.561s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.hpp
+[3.561s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.hpp
+[3.561s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.hpp
+[3.562s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[3.562s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.hpp
+[3.563s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.hpp
+[3.563s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[3.564s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[3.564s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.564s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.565s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[3.565s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[3.565s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[3.565s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[3.566s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[3.567s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[3.567s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py
+[3.567s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/__init__.py
+[3.567s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_controller_state.py
+[3.567s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_hardware_interface.py
+[3.568s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/__init__.py
+[3.568s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_controller.py
+[3.569s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_start_controller.py
+[3.569s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[3.569s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[3.569s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[3.569s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_configure_controller.py
+[3.570s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_controller.py
+[3.570s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_start_controller.py
+[3.570s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[3.571s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[3.571s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[3.571s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.571s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.572s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.572s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__python.so
+[3.573s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[3.574s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[3.574s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[3.576s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.idl
+[3.576s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[3.576s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[3.577s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[3.577s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.idl
+[3.577s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[3.578s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.idl
+[3.578s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[3.578s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[3.578s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[3.578s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[3.579s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[3.579s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[3.580s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[3.580s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[3.580s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.srv
+[3.580s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Request.msg
+[3.581s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Response.msg
+[3.581s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[3.581s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[3.582s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[3.582s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[3.582s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[3.583s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[3.583s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[3.584s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[3.584s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[3.584s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.srv
+[3.585s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Request.msg
+[3.585s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Response.msg
+[3.585s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[3.586s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[3.586s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[3.586s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.srv
+[3.586s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Request.msg
+[3.587s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Response.msg
+[3.587s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[3.588s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[3.588s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[3.588s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[3.588s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[3.589s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[3.589s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[3.589s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[3.590s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[3.591s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[3.591s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[3.591s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[3.592s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[3.592s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[3.592s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[3.593s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[3.593s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[3.594s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[3.594s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[3.594s] -- Symlinking: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[3.614s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[3.614s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[3.615s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.615s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.615s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.615s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.616s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.616s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.617s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[3.617s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[3.617s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[3.618s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[3.618s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[3.619s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[3.619s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[3.620s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[3.686s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport.cmake
+[3.686s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.686s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cppExport.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.687s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.688s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[3.688s] -- Up-to-date: /home/raul/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.853s] Invoked command in '/home/raul/bookros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/controller_manager_msgs

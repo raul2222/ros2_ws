@@ -1,0 +1,69 @@
+[0.075s] Invoking command in '/home/raul/bookros2_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/force_torque_sensor_broadcaster
+[0.173s] -- The C compiler identification is GNU 9.4.0
+[0.254s] -- The CXX compiler identification is GNU 9.4.0
+[0.259s] -- Check for working C compiler: /usr/bin/cc
+[0.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.368s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.501s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.637s] -- Detecting CXX compiler ABI info
+[0.770s] -- Detecting CXX compiler ABI info - done
+[0.786s] -- Detecting CXX compile features
+[0.787s] -- Detecting CXX compile features - done
+[0.790s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.825s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.098s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.123s] -- Found controller_interface: 0.7.1 (/home/raul/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.339s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.379s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.305s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.309s] -- Looking for pthread.h
+[2.454s] -- Looking for pthread.h - found
+[2.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.582s] -- Looking for pthread_create in pthreads
+[2.679s] -- Looking for pthread_create in pthreads - not found
+[2.679s] -- Looking for pthread_create in pthread
+[2.786s] -- Looking for pthread_create in pthread - found
+[2.786s] -- Found Threads: TRUE  
+[3.141s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[3.268s] -- Found ament_cmake_gmock: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.269s] -- Found controller_manager: 0.7.1 (/home/raul/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.352s] -- Found ros2_control_test_assets: 0.7.1 (/home/raul/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.356s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.361s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.363s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.768s] -- Configuring done
+[3.954s] -- Generating done
+[3.959s] -- Build files have been written to: /home/raul/bookros2_ws/build/force_torque_sensor_broadcaster
+[3.979s] Invoked command in '/home/raul/bookros2_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/force_torque_sensor_broadcaster
+[3.980s] Invoking command in '/home/raul/bookros2_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[4.544s] [35m[1mScanning dependencies of target gmock[0m
+[4.544s] [35m[1mScanning dependencies of target force_torque_sensor_broadcaster[0m
+[4.544s] [35m[1mScanning dependencies of target gmock_main[0m
+[4.544s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.545s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.545s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.545s] [ 36%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[8.193s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.307s] [ 45%] Built target gmock_main
+[13.635s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.875s] [ 54%] Built target gmock
+[13.910s] [35m[1mScanning dependencies of target test_load_force_torque_sensor_broadcaster[0m
+[14.029s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[15.383s] [ 72%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[16.078s] [ 72%] Built target force_torque_sensor_broadcaster
+[16.203s] [35m[1mScanning dependencies of target test_force_torque_sensor_broadcaster[0m
+[16.392s] [ 81%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[32.536s] [ 90%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[34.073s] [ 90%] Built target test_load_force_torque_sensor_broadcaster
+[40.324s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[41.055s] [100%] Built target test_force_torque_sensor_broadcaster

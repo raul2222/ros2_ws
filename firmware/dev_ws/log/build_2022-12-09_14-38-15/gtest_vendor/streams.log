@@ -1,0 +1,55 @@
+[0.452s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/raul/bookros2_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor
+[0.671s] -- Configuring done
+[0.671s] -- Generating done
+[0.671s] -- Build files have been written to: /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor
+[0.884s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/raul/bookros2_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor
+[0.888s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor -- -j6 -l6
+[0.938s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor -- -j6 -l6
+[0.985s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor
+[0.995s] -- Install configuration: ""
+[0.996s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/cmake/gtest_vendorConfig.cmake
+[0.996s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/package.xml
+[0.996s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/CMakeLists.txt
+[0.997s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest
+[0.997s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_prod.h
+[0.997s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-matchers.h
+[0.997s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal
+[0.998s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util.h
+[0.998s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util-generated.h.pump
+[0.998s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port-arch.h
+[0.999s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-internal.h
+[0.999s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util-generated.h
+[0.999s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h
+[0.999s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port.h
+[1.000s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-string.h
+[1.000s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-filepath.h
+[1.000s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h
+[1.001s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h.pump
+[1.001s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom
+[1.001s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest.h
+[1.001s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-printers.h
+[1.002s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-port.h
+[1.002s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/README.md
+[1.002s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h
+[1.002s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-message.h
+[1.003s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h
+[1.003s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-typed-test.h
+[1.003s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-death-test.h
+[1.004s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-test-part.h
+[1.004s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-printers.h
+[1.004s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h.pump
+[1.005s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_pred_impl.h
+[1.005s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-spi.h
+[1.005s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src
+[1.005s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-typed-test.cc
+[1.005s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-port.cc
+[1.006s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest_main.cc
+[1.007s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-internal-inl.h
+[1.007s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-printers.cc
+[1.007s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-death-test.cc
+[1.007s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-matchers.cc
+[1.008s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc
+[1.008s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest.cc
+[1.008s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-test-part.cc
+[1.008s] -- Installing: /home/raul/bookros2_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-filepath.cc
+[1.013s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor

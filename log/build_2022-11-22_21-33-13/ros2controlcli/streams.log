@@ -1,0 +1,24 @@
+[0.992s] Invoking command in '/home/raul/bookros2_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/build/ros2controlcli/prefix_override:/home/raul/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/ros2controlcli/build --no-deps install_data
+[3.770s] running develop
+[3.770s] running egg_info
+[3.770s] creating ros2controlcli.egg-info
+[3.771s] writing ros2controlcli.egg-info/PKG-INFO
+[3.771s] writing dependency_links to ros2controlcli.egg-info/dependency_links.txt
+[3.771s] writing entry points to ros2controlcli.egg-info/entry_points.txt
+[3.771s] writing requirements to ros2controlcli.egg-info/requires.txt
+[3.771s] writing top-level names to ros2controlcli.egg-info/top_level.txt
+[3.771s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[3.772s] reading manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[3.772s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[3.772s] running build_ext
+[3.772s] Creating /home/raul/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages/site.py
+[3.772s] Creating /home/raul/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli.egg-link (link to .)
+[3.773s] 
+[3.773s] Installed /home/raul/bookros2_ws/build/ros2controlcli
+[3.773s] running install_data
+[3.773s] copying package.xml -> /home/raul/bookros2_ws/install/ros2controlcli/share/ros2controlcli
+[3.773s] creating /home/raul/bookros2_ws/install/ros2controlcli/share/ament_index
+[3.773s] creating /home/raul/bookros2_ws/install/ros2controlcli/share/ament_index/resource_index
+[3.774s] creating /home/raul/bookros2_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[3.774s] copying resource/ros2controlcli -> /home/raul/bookros2_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[3.798s] Invoked command in '/home/raul/bookros2_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/build/ros2controlcli/prefix_override:/home/raul/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/ros2controlcli/build --no-deps install_data

@@ -1,0 +1,212 @@
+[0.266s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/micro_ros_setup
+[1.136s] -- The C compiler identification is GNU 9.4.0
+[1.661s] -- The CXX compiler identification is GNU 9.4.0
+[1.708s] -- Check for working C compiler: /usr/bin/cc
+[2.406s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.410s] -- Detecting C compiler ABI info
+[3.349s] -- Detecting C compiler ABI info - done
+[3.400s] -- Detecting C compile features
+[3.402s] -- Detecting C compile features - done
+[3.411s] -- Check for working CXX compiler: /usr/bin/c++
+[4.258s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.259s] -- Detecting CXX compiler ABI info
+[6.950s] -- Detecting CXX compiler ABI info - done
+[6.979s] -- Detecting CXX compile features
+[6.981s] -- Detecting CXX compile features - done
+[7.019s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.072s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.724s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.806s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.813s] -- Added test 'lint_cmake' to check CMake code style
+[10.839s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.871s] -- Added test 'xmllint' to check XML markup files
+[10.883s] -- Configuring done
+[10.891s] -- Generating done
+[10.892s] -- Build files have been written to: /home/raul/bookros2_ws/build/micro_ros_setup
+[10.903s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/micro_ros_setup
+[10.905s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/micro_ros_setup -- -j10 -l10
+[12.076s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/micro_ros_setup -- -j10 -l10
+[12.592s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/micro_ros_setup
+[13.205s] -- Install configuration: ""
+[13.205s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[13.205s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[13.205s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[13.206s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[13.206s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[13.206s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[13.206s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[13.206s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[13.207s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[13.208s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[13.208s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config
+[13.208s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[13.208s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/utils.sh
+[13.209s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[13.209s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx
+[13.209s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic
+[13.209s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/flash.sh
+[13.209s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos
+[13.210s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/package.xml
+[13.215s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/create.sh
+[13.216s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/configure.sh
+[13.216s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/build.sh
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/reset.sh
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/supported_platforms
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos
+[13.217s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[13.218s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[13.219s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[13.220s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[13.221s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[13.222s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[13.223s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[13.224s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[13.225s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[13.226s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[13.232s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[13.232s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[13.232s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[13.232s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[13.233s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[13.233s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[13.233s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian
+[13.233s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic
+[13.233s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[13.234s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[13.235s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/reset.sh
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[13.236s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[13.237s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[13.238s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[13.238s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[13.238s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[13.263s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[13.263s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr
+[13.263s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic
+[13.263s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/reset.sh
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[13.264s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[13.265s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[13.267s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh
+[13.267s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[13.267s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[13.267s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[13.267s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[13.267s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/micro_ros_setup

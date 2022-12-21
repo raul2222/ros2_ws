@@ -1,0 +1,39 @@
+[0.343s] Invoking command in '/home/raul/bookros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/twist_mux -- -j8 -l8
+[0.464s] [ 33%] Built target twist_marker
+[0.480s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_mux.dir/src/twist_mux.cpp.o[0m
+[120.962s] [ 66%] [32m[1mLinking CXX executable twist_mux[0m
+[121.657s] [100%] Built target twist_mux
+[121.681s] Invoked command in '/home/raul/bookros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/twist_mux -- -j8 -l8
+[121.747s] Invoking command in '/home/raul/bookros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/twist_mux
+[122.485s] -- Install configuration: ""
+[122.485s] -- Execute custom install script
+[122.485s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_mux
+[122.485s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_marker
+[122.486s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux.launch
+[122.486s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux_launch.py
+[122.486s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/joystick.yaml
+[122.487s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_locks.yaml
+[122.487s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_topics.yaml
+[122.487s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/params_helpers.hpp
+[122.487s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/topic_handle.hpp
+[122.488s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux.hpp
+[122.488s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics.hpp
+[122.489s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics_status.hpp
+[122.489s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/utils.hpp
+[122.489s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/package_run_dependencies/twist_mux
+[122.489s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/parent_prefix_path/twist_mux
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.sh
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.dsv
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.sh
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.dsv
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.bash
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.sh
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.zsh
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.dsv
+[122.490s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.dsv
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/packages/twist_mux
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig.cmake
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig-version.cmake
+[122.491s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.xml

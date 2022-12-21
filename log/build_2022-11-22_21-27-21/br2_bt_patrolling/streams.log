@@ -1,0 +1,42 @@
+[0.116s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.217s] [35m[1mScanning dependencies of target br2_battery_checker_bt_node[0m
+[0.219s] [35m[1mScanning dependencies of target br2_patrol_bt_node[0m
+[0.219s] [35m[1mScanning dependencies of target br2_track_objects_bt_node[0m
+[0.245s] [35m[1mScanning dependencies of target br2_recharge_bt_node[0m
+[0.246s] [35m[1mScanning dependencies of target patrolling_main[0m
+[0.251s] [35m[1mScanning dependencies of target br2_move_bt_node[0m
+[0.251s] [35m[1mScanning dependencies of target gtest[0m
+[0.251s] [35m[1mScanning dependencies of target br2_get_waypoint_bt_node[0m
+[0.279s] [  5%] [32mBuilding CXX object CMakeFiles/br2_recharge_bt_node.dir/src/br2_bt_patrolling/Recharge.cpp.o[0m
+[0.339s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.345s] [ 15%] [32mBuilding CXX object CMakeFiles/patrolling_main.dir/src/patrolling_main.cpp.o[0m
+[0.378s] [ 20%] [32mBuilding CXX object CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o[0m
+[0.382s] [ 25%] [32mBuilding CXX object CMakeFiles/br2_battery_checker_bt_node.dir/src/br2_bt_patrolling/BatteryChecker.cpp.o[0m
+[0.398s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_get_waypoint_bt_node.dir/src/br2_bt_patrolling/GetWaypoint.cpp.o[0m
+[0.413s] [ 35%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[0.432s] [ 40%] [32mBuilding CXX object CMakeFiles/br2_track_objects_bt_node.dir/src/br2_bt_patrolling/TrackObjects.cpp.o[0m
+[5.378s] [ 45%] [32m[1mLinking CXX shared library libbr2_recharge_bt_node.so[0m
+[5.809s] [ 45%] Built target br2_recharge_bt_node
+[5.896s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.943s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[110.674s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[110.675s] compilation terminated.
+[110.677s] make[2]: *** [CMakeFiles/br2_patrol_bt_node.dir/build.make:63: CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o] Error 1
+[110.678s] make[1]: *** [CMakeFiles/Makefile2:347: CMakeFiles/br2_patrol_bt_node.dir/all] Error 2
+[110.678s] make[1]: *** Waiting for unfinished jobs....
+[111.925s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[112.057s] [ 55%] Built target gtest_main
+[113.657s] [ 60%] [32m[1mLinking CXX executable patrolling_main[0m
+[113.885s] [ 65%] [32m[1mLinking CXX shared library libbr2_get_waypoint_bt_node.so[0m
+[114.007s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[114.313s] [ 70%] Built target gtest
+[114.512s] [ 70%] Built target br2_get_waypoint_bt_node
+[114.818s] [ 70%] Built target patrolling_main
+[116.022s] [ 75%] [32m[1mLinking CXX shared library libbr2_track_objects_bt_node.so[0m
+[116.535s] [ 75%] Built target br2_track_objects_bt_node
+[116.782s] [ 80%] [32m[1mLinking CXX shared library libbr2_move_bt_node.so[0m
+[117.233s] [ 80%] Built target br2_move_bt_node
+[119.194s] [ 85%] [32m[1mLinking CXX shared library libbr2_battery_checker_bt_node.so[0m
+[119.721s] [ 85%] Built target br2_battery_checker_bt_node
+[119.723s] make: *** [Makefile:141: all] Error 2
+[119.728s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_patrolling' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8

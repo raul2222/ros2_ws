@@ -1,0 +1,1 @@
+/home/raul/bookros2_ws/src/book_ros2/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py

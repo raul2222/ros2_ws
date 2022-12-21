@@ -1,0 +1,45 @@
+[0.112s] Invoking command in '/home/raul/bookros2_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/diff_drive_controller -- -j8 -l8
+[0.256s] [ 13%] Built target gmock_main
+[0.281s] [ 33%] Built target gmock
+[0.343s] [ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[0.370s] [ 53%] Built target test_accumulator
+[0.444s] [ 66%] Built target test_load_diff_drive_controller
+[19.174s] [ 73%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[20.154s] [ 86%] Built target diff_drive_controller
+[20.247s] [35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[20.379s] [ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[26.974s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[27.785s] [100%] Built target test_diff_drive_controller
+[27.840s] Invoked command in '/home/raul/bookros2_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/diff_drive_controller -- -j8 -l8
+[27.911s] Invoking command in '/home/raul/bookros2_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/diff_drive_controller
+[27.923s] -- Install configuration: ""
+[27.924s] -- Execute custom install script
+[27.926s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller//diff_drive_plugin.xml
+[27.939s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp
+[27.952s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/odometry.hpp
+[27.965s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/rolling_mean_accumulator.hpp
+[27.978s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/speed_limiter.hpp
+[27.991s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/visibility_control.h
+[28.030s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[28.049s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[28.066s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[28.081s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[28.095s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[28.109s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[28.122s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[28.136s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[28.149s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[28.163s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[28.176s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[28.190s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[28.203s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[28.216s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[28.230s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[28.244s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[28.258s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.272s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.285s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[28.299s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[28.312s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[28.325s] -- Symlinking: /home/raul/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[28.345s] Invoked command in '/home/raul/bookros2_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/diff_drive_controller

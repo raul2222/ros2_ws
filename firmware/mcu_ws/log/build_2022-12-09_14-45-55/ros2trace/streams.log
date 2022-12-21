@@ -1,0 +1,43 @@
+[0.854s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed
+[1.137s] running egg_info
+[1.138s] creating ../../../build/ros2trace/ros2trace.egg-info
+[1.138s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.138s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.139s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.139s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.140s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.141s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.185s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.186s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.187s] running build
+[1.187s] running build_py
+[1.187s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build
+[1.187s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib
+[1.188s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.188s] copying ros2trace/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.188s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.188s] copying ros2trace/api/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.188s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.189s] copying ros2trace/command/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.189s] copying ros2trace/command/trace.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.189s] running install
+[1.191s] running install_lib
+[1.192s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace
+[1.200s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/api
+[1.200s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/api
+[1.200s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/command
+[1.200s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/command
+[1.200s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/command
+[1.201s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace
+[1.201s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/api/__init__.py to __init__.cpython-38.pyc
+[1.201s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/command/__init__.py to __init__.cpython-38.pyc
+[1.201s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/command/trace.py to trace.cpython-38.pyc
+[1.201s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace/__init__.py to __init__.cpython-38.pyc
+[1.201s] running install_data
+[1.201s] copying package.xml -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/ros2trace
+[1.201s] copying resource/ros2trace -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.201s] running install_egg_info
+[1.202s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/ros2trace-1.0.2-py3.8.egg-info
+[1.202s] running install_scripts
+[1.220s] writing list of installed files to '/home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[1.246s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed

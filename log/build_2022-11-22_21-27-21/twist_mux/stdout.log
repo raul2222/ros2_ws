@@ -1,0 +1,36 @@
+[ 33%] Built target twist_marker
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_mux.dir/src/twist_mux.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable twist_mux[0m
+[100%] Built target twist_mux
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_mux
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_marker
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux.launch
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux_launch.py
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/joystick.yaml
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_locks.yaml
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_topics.yaml
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/params_helpers.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/topic_handle.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics_status.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/utils.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/package_run_dependencies/twist_mux
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/parent_prefix_path/twist_mux
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.bash
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.sh
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.zsh
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/packages/twist_mux
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig-version.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.xml

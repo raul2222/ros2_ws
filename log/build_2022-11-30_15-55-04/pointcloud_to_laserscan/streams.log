@@ -1,0 +1,87 @@
+[0.121s] Invoking command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pointcloud_to_laserscan
+[0.408s] -- The C compiler identification is GNU 9.4.0
+[0.807s] -- The CXX compiler identification is GNU 9.4.0
+[0.830s] -- Check for working C compiler: /usr/bin/cc
+[1.062s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.062s] -- Detecting C compiler ABI info
+[1.219s] -- Detecting C compiler ABI info - done
+[1.240s] -- Detecting C compile features
+[1.240s] -- Detecting C compile features - done
+[1.241s] -- Check for working CXX compiler: /usr/bin/c++
+[1.384s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.384s] -- Detecting CXX compiler ABI info
+[1.536s] -- Detecting CXX compiler ABI info - done
+[1.553s] -- Detecting CXX compile features
+[1.554s] -- Detecting CXX compile features - done
+[1.565s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.633s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.634s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.944s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.194s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[2.230s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[2.244s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.495s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.799s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.208s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.221s] -- Looking for pthread.h
+[3.431s] -- Looking for pthread.h - found
+[3.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.611s] -- Looking for pthread_create in pthreads
+[3.741s] -- Looking for pthread_create in pthreads - not found
+[3.741s] -- Looking for pthread_create in pthread
+[3.869s] -- Looking for pthread_create in pthread - found
+[3.869s] -- Found Threads: TRUE  
+[4.170s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.307s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.500s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[4.524s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.986s] -- Found tf2_sensor_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[5.029s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.207s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/raul/bookros2_ws/src/book_ros2/pointcloud_to_laserscan/include>
+[5.207s] -- Configured cppcheck exclude dirs and/or files: 
+[5.213s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.214s] -- Configured cpplint exclude dirs and/or files: 
+[5.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.221s] -- Added test 'lint_cmake' to check CMake code style
+[5.221s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.227s] -- Added test 'uncrustify' to check C / C++ code style
+[5.227s] -- Configured uncrustify additional arguments: 
+[5.229s] -- Added test 'xmllint' to check XML markup files
+[5.238s] -- Configuring done
+[5.243s] CMake Error at CMakeLists.txt:15 (add_library):
+[5.243s]   Target "laserscan_to_pointcloud" links to target
+[5.243s]   "rclcpp_components::component" but the target was not found.  Perhaps a
+[5.243s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[5.243s]   is missing?
+[5.243s] 
+[5.244s] 
+[5.244s] CMake Error at CMakeLists.txt:15 (add_library):
+[5.245s]   Target "laserscan_to_pointcloud" links to target
+[5.245s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[5.245s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[5.245s]   is missing?
+[5.246s] 
+[5.246s] 
+[5.246s] CMake Error at CMakeLists.txt:36 (add_library):
+[5.246s]   Target "pointcloud_to_laserscan" links to target
+[5.246s]   "rclcpp_components::component" but the target was not found.  Perhaps a
+[5.247s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[5.247s]   is missing?
+[5.247s] 
+[5.247s] 
+[5.247s] CMake Error at CMakeLists.txt:36 (add_library):
+[5.247s]   Target "pointcloud_to_laserscan" links to target
+[5.247s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[5.247s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[5.247s]   is missing?
+[5.248s] 
+[5.248s] 
+[5.274s] -- Generating done
+[5.277s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[5.327s] Invoked command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pointcloud_to_laserscan

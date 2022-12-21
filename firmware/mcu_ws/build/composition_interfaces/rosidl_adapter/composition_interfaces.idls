@@ -1,0 +1,3 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/LoadNode.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/ListNodes.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/UnloadNode.idl

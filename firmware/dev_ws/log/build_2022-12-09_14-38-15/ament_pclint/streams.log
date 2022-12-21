@@ -1,0 +1,79 @@
+[1.031s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
+[1.254s] running egg_info
+[1.254s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[1.254s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[1.255s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[1.255s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[1.255s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[1.255s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[1.256s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.293s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.294s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.294s] running build
+[1.294s] running build_py
+[1.294s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build
+[1.295s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib
+[1.295s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.295s] copying ament_pclint/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.295s] copying ament_pclint/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.295s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.296s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.296s] copying ament_pclint/config/gcc/co-g++.h -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.296s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.296s] copying ament_pclint/config/gcc/co-gcc.h -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.296s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.297s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.297s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.297s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.297s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.297s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.297s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.298s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.298s] copying ament_pclint/config/msvc/co-cl.h -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.298s] copying ament_pclint/config/au-misra3.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.298s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.298s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.299s] copying ament_pclint/config/c99.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.299s] copying ament_pclint/config/c++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.299s] copying ament_pclint/config/deprecate.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.299s] copying ament_pclint/config/env-xml.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.299s] running install
+[1.299s] running install_lib
+[1.300s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.301s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.301s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.301s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.301s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.301s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.302s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.302s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.302s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.302s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.302s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.303s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.304s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.304s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.304s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.304s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.304s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.304s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.304s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/main.py to main.cpython-38.pyc
+[1.308s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/__init__.py to __init__.cpython-38.pyc
+[1.308s] running install_data
+[1.308s] copying package.xml -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[1.309s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/share/ament_index
+[1.309s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[1.309s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.309s] copying resource/ament_pclint -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.309s] running install_egg_info
+[1.311s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint-0.9.7-py3.8.egg-info
+[1.312s] running install_scripts
+[1.330s] Installing ament_pclint script to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/bin
+[1.331s] writing list of installed files to '/home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/install.log'
+[1.390s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/bin:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed

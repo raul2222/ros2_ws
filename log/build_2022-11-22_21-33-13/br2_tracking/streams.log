@@ -1,0 +1,40 @@
+[0.072s] Invoking command in '/home/raul/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tracking -- -j8 -l8
+[0.211s] [ 14%] Built target gtest
+[0.229s] [ 28%] Built target gtest_main
+[0.253s] [ 57%] Built target br2_tracking
+[0.342s] [ 71%] Built target object_detector
+[0.346s] [ 85%] Built target object_tracker
+[0.358s] [100%] Built target pid_test
+[0.385s] Invoked command in '/home/raul/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tracking -- -j8 -l8
+[0.499s] Invoking command in '/home/raul/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tracking
+[0.515s] -- Install configuration: "Debug"
+[0.517s] -- Execute custom install script
+[0.518s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/lib/libbr2_tracking.so
+[0.549s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_detector
+[0.587s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_tracker
+[0.608s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/include/include/br2_tracking/HeadController.hpp
+[0.619s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/include/include/br2_tracking/ObjectDetector.hpp
+[0.638s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/include/include/br2_tracking/PIDController.hpp
+[0.658s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/launch/tracking.launch.py
+[0.677s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/config/detector.yaml
+[0.697s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.sh
+[0.713s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.dsv
+[0.732s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/package_run_dependencies/br2_tracking
+[0.750s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/parent_prefix_path/br2_tracking
+[0.771s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.sh
+[0.789s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.dsv
+[0.827s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.sh
+[0.840s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.dsv
+[0.859s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.bash
+[0.875s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.sh
+[0.894s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.zsh
+[0.931s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.dsv
+[0.946s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/package.dsv
+[0.979s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/packages/br2_tracking
+[0.995s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.026s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_libraries-extras.cmake
+[1.042s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.062s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig.cmake
+[1.080s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig-version.cmake
+[1.099s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tracking/share/br2_tracking/package.xml
+[1.123s] Invoked command in '/home/raul/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tracking

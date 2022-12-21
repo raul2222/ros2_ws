@@ -1,0 +1,32 @@
+[0.818s] Invoking command in '/home/raul/bookros2_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/x86_64-linux-gnu/pkgconfig:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --install-scripts $base/lib/sensor_msgs_py --single-version-externally-managed
+[1.048s] running egg_info
+[1.049s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[1.050s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[1.050s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[1.050s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[1.051s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[1.052s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.086s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.087s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.087s] running build
+[1.087s] running build_py
+[1.087s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build
+[1.087s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib
+[1.087s] creating /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.088s] copying sensor_msgs_py/point_cloud2.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.088s] copying sensor_msgs_py/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.088s] running install
+[1.089s] running install_lib
+[1.090s] creating /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py
+[1.090s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py
+[1.090s] copying /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py
+[1.091s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-38.pyc
+[1.093s] byte-compiling /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-38.pyc
+[1.093s] running install_data
+[1.094s] copying resource/sensor_msgs_py -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.094s] copying package.xml -> /home/raul/bookros2_ws/firmware/mcu_ws/install/share/sensor_msgs_py
+[1.094s] running install_egg_info
+[1.096s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/sensor_msgs_py-2.0.5-py3.8.egg-info
+[1.096s] running install_scripts
+[1.115s] writing list of installed files to '/home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[1.137s] Invoked command in '/home/raul/bookros2_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/x86_64-linux-gnu/pkgconfig:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/raul/bookros2_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --install-scripts $base/lib/sensor_msgs_py --single-version-externally-managed

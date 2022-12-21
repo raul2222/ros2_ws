@@ -1,0 +1,81 @@
+[0.078s] Invoking command in '/home/raul/bookros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/joint_trajectory_controller
+[0.154s] -- The C compiler identification is GNU 9.4.0
+[0.245s] -- The CXX compiler identification is GNU 9.4.0
+[0.250s] -- Check for working C compiler: /usr/bin/cc
+[0.355s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.356s] -- Detecting C compiler ABI info
+[0.503s] -- Detecting C compiler ABI info - done
+[0.519s] -- Detecting C compile features
+[0.519s] -- Detecting C compile features - done
+[0.523s] -- Check for working CXX compiler: /usr/bin/c++
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.672s] -- Detecting CXX compiler ABI info
+[0.820s] -- Detecting CXX compiler ABI info - done
+[0.836s] -- Detecting CXX compile features
+[0.836s] -- Detecting CXX compile features - done
+[0.840s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.889s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.889s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.180s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[1.182s] -- Found controller_interface: 0.7.1 (/home/raul/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.253s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.433s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.363s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.366s] -- Looking for pthread.h
+[2.489s] -- Looking for pthread.h - found
+[2.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.605s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.605s] -- Looking for pthread_create in pthreads
+[2.709s] -- Looking for pthread_create in pthreads - not found
+[2.709s] -- Looking for pthread_create in pthread
+[2.837s] -- Looking for pthread_create in pthread - found
+[2.841s] -- Found Threads: TRUE  
+[3.210s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[3.336s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.338s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.340s] -- Found controller_manager: 0.7.1 (/home/raul/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.424s] -- Found ros2_control_test_assets: 0.7.1 (/home/raul/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.530s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.534s] -- Check if compiler accepts -pthread
+[3.712s] -- Check if compiler accepts -pthread - yes
+[3.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.967s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/joint_trajectory_controller/include
+[3.967s] -- Configured cppcheck exclude dirs and/or files: 
+[3.970s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.970s] -- Configured cpplint exclude dirs and/or files: 
+[3.971s] -- Added test 'lint_cmake' to check CMake code style
+[3.974s] -- Added test 'uncrustify' to check C / C++ code style
+[3.974s] -- Configured uncrustify additional arguments: 
+[3.974s] -- Added test 'xmllint' to check XML markup files
+[3.984s] -- Configuring done
+[4.249s] -- Generating done
+[4.252s] -- Build files have been written to: /home/raul/bookros2_ws/build/joint_trajectory_controller
+[4.287s] Invoked command in '/home/raul/bookros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/joint_trajectory_controller
+[4.288s] Invoking command in '/home/raul/bookros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/joint_trajectory_controller -- -j8 -l8
+[7.947s] [35m[1mScanning dependencies of target gtest_main[0m
+[7.948s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[7.948s] [35m[1mScanning dependencies of target gtest[0m
+[7.948s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.948s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.948s] [ 20%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[7.948s] [ 26%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[7.948s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.948s] [ 33%] Built target gtest_main
+[13.600s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.831s] [ 40%] Built target gtest
+[13.909s] [35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[14.146s] [ 46%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[30.263s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[30.265s] compilation terminated.
+[30.265s] make[2]: *** [CMakeFiles/joint_trajectory_controller.dir/build.make:63: CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o] Error 1
+[30.265s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/joint_trajectory_controller.dir/all] Error 2
+[30.265s] make[1]: *** Waiting for unfinished jobs....
+[35.831s] [ 53%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[36.432s] [ 53%] Built target test_load_joint_trajectory_controller
+[36.438s] make: *** [Makefile:141: all] Error 2

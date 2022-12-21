@@ -1,0 +1,16 @@
+[1.356s] Invoking command in '/home/raul/bookros2_ws/build/launch_pal': PYTHONPATH=/home/raul/bookros2_ws/build/launch_pal/prefix_override:/home/raul/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/launch_pal/build --no-deps install_data
+[1.813s] running develop
+[2.273s] running egg_info
+[2.275s] writing launch_pal.egg-info/PKG-INFO
+[2.275s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[2.276s] writing entry points to launch_pal.egg-info/entry_points.txt
+[2.276s] writing requirements to launch_pal.egg-info/requires.txt
+[2.276s] writing top-level names to launch_pal.egg-info/top_level.txt
+[2.343s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[2.343s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[2.411s] running build_ext
+[2.411s] Creating /home/raul/bookros2_ws/install/launch_pal/lib/python3.8/site-packages/launch-pal.egg-link (link to .)
+[2.412s] 
+[2.412s] Installed /home/raul/bookros2_ws/build/launch_pal
+[2.412s] running install_data
+[2.548s] Invoked command in '/home/raul/bookros2_ws/build/launch_pal' returned '0': PYTHONPATH=/home/raul/bookros2_ws/build/launch_pal/prefix_override:/home/raul/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/launch_pal/build --no-deps install_data

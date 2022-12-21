@@ -1,0 +1,153 @@
+[0.257s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/micro_ros_msgs
+[0.304s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.355s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.355s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.740s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.239s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.388s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.529s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.802s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.803s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.851s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.852s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.852s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.916s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.960s] -- Added test 'lint_cmake' to check CMake code style
+[1.974s] -- Added test 'xmllint' to check XML markup files
+[2.000s] -- Configuring done
+[2.166s] -- Generating done
+[2.168s] -- Build files have been written to: /home/raul/bookros2_ws/build/micro_ros_msgs
+[2.248s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/micro_ros_msgs
+[2.249s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/micro_ros_msgs -- -j10 -l10
+[2.378s] [  2%] Built target micro_ros_msgs__cpp
+[2.385s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[2.493s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[2.507s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_c
+[2.508s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[2.523s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[2.536s] [ 57%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.809s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[2.885s] [ 68%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.139s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[3.257s] [ 76%] Built target micro_ros_msgs
+[3.346s] [ 78%] Built target micro_ros_msgs__py
+[3.411s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__python.so[0m
+[3.584s] [ 87%] Built target micro_ros_msgs__python
+[3.676s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.679s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.683s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.754s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[3.765s] [ 97%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[3.841s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.903s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/micro_ros_msgs -- -j10 -l10
+[4.534s] Invoking command in '/home/raul/bookros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/micro_ros_msgs
+[4.555s] -- Install configuration: ""
+[4.555s] -- Execute custom install script
+[4.557s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[4.580s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[4.603s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[4.624s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[4.644s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[4.668s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[4.691s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[4.710s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[4.732s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[4.749s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[4.764s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[4.782s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[4.798s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[4.814s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.832s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[4.848s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[4.865s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[4.884s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[4.901s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[5.003s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.021s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[5.040s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[5.058s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[5.078s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[5.093s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.109s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.127s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[5.168s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[5.184s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[5.200s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.220s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[5.239s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[5.257s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[5.282s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[5.295s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[5.318s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[5.344s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[5.374s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[5.405s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[5.438s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[5.476s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[5.506s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[5.551s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[5.581s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[5.628s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[5.663s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[5.691s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[5.717s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[5.747s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[5.767s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[5.785s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[5.802s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[5.821s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.844s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.861s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.887s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[5.920s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[5.969s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[6.004s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[6.049s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[6.086s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[6.109s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[6.142s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[6.169s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[6.179s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[6.195s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[6.220s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[6.234s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[6.256s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[6.282s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[6.297s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[6.320s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[6.345s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[6.371s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[6.411s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[6.423s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.446s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.470s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.493s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.514s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.533s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.551s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[6.569s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[6.592s] -- Symlinking: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[6.609s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[6.609s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.610s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[6.612s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.613s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[6.665s] Compiling '/home/raul/bookros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py'...
+[6.668s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[6.669s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.669s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.669s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.669s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[6.670s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.670s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[6.671s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.671s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.671s] -- Up-to-date: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[6.671s] -- Installing: /home/raul/bookros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.774s] Invoked command in '/home/raul/bookros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/micro_ros_msgs

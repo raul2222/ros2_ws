@@ -1,0 +1,109 @@
+[0.072s] Invoking command in '/home/raul/bookros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/position_controllers
+[0.239s] -- The C compiler identification is GNU 9.4.0
+[0.333s] -- The CXX compiler identification is GNU 9.4.0
+[0.337s] -- Check for working C compiler: /usr/bin/cc
+[0.507s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.507s] -- Detecting C compiler ABI info
+[0.701s] -- Detecting C compiler ABI info - done
+[0.711s] -- Detecting C compile features
+[0.712s] -- Detecting C compile features - done
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++
+[0.868s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.868s] -- Detecting CXX compiler ABI info
+[0.999s] -- Detecting CXX compiler ABI info - done
+[1.014s] -- Detecting CXX compile features
+[1.015s] -- Detecting CXX compile features - done
+[1.018s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.265s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.301s] -- Found forward_command_controller: 0.4.0 (/home/raul/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[1.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.357s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.518s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.556s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.421s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.425s] -- Looking for pthread.h
+[2.552s] -- Looking for pthread.h - found
+[2.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.676s] -- Looking for pthread_create in pthreads
+[2.794s] -- Looking for pthread_create in pthreads - not found
+[2.794s] -- Looking for pthread_create in pthread
+[2.908s] -- Looking for pthread_create in pthread - found
+[2.908s] -- Found Threads: TRUE  
+[3.614s] -- Found ament_cmake_gmock: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.617s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.618s] -- Found controller_manager: 0.7.1 (/home/raul/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.731s] -- Found ros2_control_test_assets: 0.7.1 (/home/raul/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.892s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.904s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.907s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.066s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.067s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/position_controllers/include
+[4.067s] -- Configured cppcheck exclude dirs and/or files: 
+[4.069s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.069s] -- Configured cpplint exclude dirs and/or files: 
+[4.070s] -- Added test 'lint_cmake' to check CMake code style
+[4.072s] -- Added test 'uncrustify' to check C / C++ code style
+[4.072s] -- Configured uncrustify additional arguments: 
+[4.073s] -- Added test 'xmllint' to check XML markup files
+[4.084s] -- Configuring done
+[4.226s] -- Generating done
+[4.229s] -- Build files have been written to: /home/raul/bookros2_ws/build/position_controllers
+[4.245s] Invoked command in '/home/raul/bookros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/position_controllers
+[4.251s] Invoking command in '/home/raul/bookros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/position_controllers -- -j8 -l8
+[4.529s] [35m[1mScanning dependencies of target position_controllers[0m
+[4.546s] [35m[1mScanning dependencies of target gmock[0m
+[4.557s] [35m[1mScanning dependencies of target gmock_main[0m
+[4.664s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.665s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.693s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.720s] [ 36%] [32mBuilding CXX object CMakeFiles/position_controllers.dir/src/joint_group_position_controller.cpp.o[0m
+[8.018s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.232s] [ 45%] Built target gmock_main
+[10.850s] [ 54%] [32m[1mLinking CXX shared library libposition_controllers.so[0m
+[11.557s] [ 54%] Built target position_controllers
+[13.369s] [ 63%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.505s] [ 63%] Built target gmock
+[13.577s] [35m[1mScanning dependencies of target test_joint_group_position_controller[0m
+[13.604s] [35m[1mScanning dependencies of target test_load_joint_group_position_controller[0m
+[13.685s] [ 72%] [32mBuilding CXX object CMakeFiles/test_joint_group_position_controller.dir/test/test_joint_group_position_controller.cpp.o[0m
+[13.732s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_position_controller.dir/test/test_load_joint_group_position_controller.cpp.o[0m
+[19.140s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_position_controller[0m
+[20.935s] [ 90%] Built target test_load_joint_group_position_controller
+[21.676s] [100%] [32m[1mLinking CXX executable test_joint_group_position_controller[0m
+[22.322s] [100%] Built target test_joint_group_position_controller
+[22.371s] Invoked command in '/home/raul/bookros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/position_controllers -- -j8 -l8
+[22.456s] Invoking command in '/home/raul/bookros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/position_controllers
+[22.468s] -- Install configuration: ""
+[22.468s] -- Execute custom install script
+[22.469s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers//position_controllers_plugins.xml
+[22.483s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/include/position_controllers/joint_group_position_controller.hpp
+[22.496s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/include/position_controllers/visibility_control.h
+[22.514s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/lib/libposition_controllers.so
+[22.529s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/library_path.sh
+[22.544s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/library_path.dsv
+[22.557s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/ament_index/resource_index/package_run_dependencies/position_controllers
+[22.570s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/ament_index/resource_index/parent_prefix_path/position_controllers
+[22.583s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.sh
+[22.596s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.dsv
+[22.609s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/path.sh
+[22.622s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/environment/path.dsv
+[22.636s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/local_setup.bash
+[22.649s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/local_setup.sh
+[22.662s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/local_setup.zsh
+[22.675s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/local_setup.dsv
+[22.689s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/package.dsv
+[22.702s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/ament_index/resource_index/packages/position_controllers
+[22.732s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/position_controllers
+[22.744s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.759s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.774s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[22.791s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig.cmake
+[22.803s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig-version.cmake
+[22.816s] -- Symlinking: /home/raul/bookros2_ws/install/position_controllers/share/position_controllers/package.xml
+[22.836s] Invoked command in '/home/raul/bookros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/forward_command_controller:/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/forward_command_controller/lib:/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/position_controllers

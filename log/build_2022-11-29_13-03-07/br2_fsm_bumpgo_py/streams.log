@@ -1,0 +1,17 @@
+[1.103s] Invoking command in '/home/raul/bookros2_ws/build/br2_fsm_bumpgo_py': PYTHONPATH=/home/raul/bookros2_ws/build/br2_fsm_bumpgo_py/prefix_override:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/br2_fsm_bumpgo_py/build --no-deps install_data
+[1.481s] running develop
+[1.693s] running egg_info
+[1.693s] writing br2_fsm_bumpgo_py.egg-info/PKG-INFO
+[1.694s] writing dependency_links to br2_fsm_bumpgo_py.egg-info/dependency_links.txt
+[1.694s] writing entry points to br2_fsm_bumpgo_py.egg-info/entry_points.txt
+[1.694s] writing requirements to br2_fsm_bumpgo_py.egg-info/requires.txt
+[1.694s] writing top-level names to br2_fsm_bumpgo_py.egg-info/top_level.txt
+[1.750s] reading manifest file 'br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+[1.752s] writing manifest file 'br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+[1.843s] running build_ext
+[1.843s] Creating /home/raul/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages/br2-fsm-bumpgo-py.egg-link (link to .)
+[1.844s] Installing bump_go_main script to /home/raul/bookros2_ws/install/br2_fsm_bumpgo_py/lib/br2_fsm_bumpgo_py
+[1.845s] 
+[1.845s] Installed /home/raul/bookros2_ws/build/br2_fsm_bumpgo_py
+[1.845s] running install_data
+[1.920s] Invoked command in '/home/raul/bookros2_ws/build/br2_fsm_bumpgo_py' returned '0': PYTHONPATH=/home/raul/bookros2_ws/build/br2_fsm_bumpgo_py/prefix_override:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/raul/bookros2_ws/build/br2_fsm_bumpgo_py/build --no-deps install_data

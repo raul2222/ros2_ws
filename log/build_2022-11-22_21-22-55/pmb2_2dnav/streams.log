@@ -1,0 +1,59 @@
+[0.056s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pmb2_2dnav
+[1.422s] -- The C compiler identification is GNU 9.4.0
+[1.422s] -- The CXX compiler identification is GNU 9.4.0
+[1.422s] -- Check for working C compiler: /usr/bin/cc
+[1.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.423s] -- Detecting C compiler ABI info
+[1.784s] -- Detecting C compiler ABI info - done
+[1.785s] -- Detecting C compile features
+[1.785s] -- Detecting C compile features - done
+[1.806s] -- Check for working CXX compiler: /usr/bin/c++
+[2.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.766s] -- Detecting CXX compiler ABI info
+[3.545s] -- Detecting CXX compiler ABI info - done
+[3.604s] -- Detecting CXX compile features
+[3.605s] -- Detecting CXX compile features - done
+[3.622s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.795s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.796s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.184s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.287s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.288s] -- Added test 'lint_cmake' to check CMake code style
+[6.288s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.290s] -- Added test 'xmllint' to check XML markup files
+[6.294s] -- Configuring done
+[6.312s] -- Generating done
+[6.313s] -- Build files have been written to: /home/raul/bookros2_ws/build/pmb2_2dnav
+[6.345s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pmb2_2dnav
+[6.347s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pmb2_2dnav -- -j8 -l8
+[100.505s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pmb2_2dnav -- -j8 -l8
+[100.790s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_2dnav': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pmb2_2dnav
+[104.140s] -- Install configuration: ""
+[104.140s] -- Execute custom install script
+[104.140s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_mapping.sh
+[104.140s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_move_base.sh
+[104.140s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_odom.sh
+[104.140s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_patrol.sh
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_rgbd.sh
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/advanced_navigation.rviz
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/navigation.rviz
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/launch/pmb2_nav_bringup.launch.py
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_params.yaml
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/ament_index/resource_index/package_run_dependencies/pmb2_2dnav
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/ament_index/resource_index/parent_prefix_path/pmb2_2dnav
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.sh
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.dsv
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.sh
+[104.141s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.dsv
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.bash
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.sh
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.zsh
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.dsv
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.dsv
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/ament_index/resource_index/packages/pmb2_2dnav
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig.cmake
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig-version.cmake
+[104.142s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.xml
+[104.192s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_2dnav' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/pmb2_maps:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pmb2_2dnav

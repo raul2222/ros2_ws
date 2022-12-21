@@ -1,0 +1,86 @@
+[0.126s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_bt_bumpgo
+[0.160s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.221s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.632s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.019s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.026s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.283s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.506s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.514s] -- ZeroMQ found.
+[1.566s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.679s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.714s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.716s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.717s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include
+[1.717s] -- Configured cppcheck exclude dirs and/or files: 
+[1.720s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.720s] -- Configured cpplint exclude dirs and/or files: 
+[1.722s] -- Added test 'lint_cmake' to check CMake code style
+[1.724s] -- Added test 'uncrustify' to check C / C++ code style
+[1.724s] -- Configured uncrustify additional arguments: 
+[1.725s] -- Added test 'xmllint' to check XML markup files
+[1.736s] -- Configuring done
+[1.828s] -- Generating done
+[1.835s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_bt_bumpgo
+[1.942s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_bt_bumpgo
+[1.944s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_bumpgo -- -j10 -l10
+[2.198s] [  5%] [32mBuilding CXX object CMakeFiles/br2_back_bt_node.dir/src/br2_bt_bumpgo/Back.cpp.o[0m
+[2.198s] [ 11%] [32mBuilding CXX object CMakeFiles/br2_turn_bt_node.dir/src/br2_bt_bumpgo/Turn.cpp.o[0m
+[2.239s] [ 16%] [32mBuilding CXX object tests/CMakeFiles/bt_forward.dir/bt_forward_main.cpp.o[0m
+[2.247s] [ 22%] [32mBuilding CXX object CMakeFiles/br2_forward_bt_node.dir/src/br2_bt_bumpgo/Forward.cpp.o[0m
+[2.270s] [ 27%] [32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o[0m
+[2.286s] [ 33%] [32mBuilding CXX object CMakeFiles/bt_bumpgo.dir/src/bt_bumpgo_main.cpp.o[0m
+[2.297s] [ 44%] Built target gtest_main
+[2.343s] [ 55%] Built target gtest
+[2.545s] [ 61%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[14.459s] [ 66%] [32m[1mLinking CXX executable bt_forward[0m
+[14.756s] [ 72%] [32m[1mLinking CXX executable bt_bumpgo[0m
+[15.544s] [ 72%] Built target bt_forward
+[15.663s] [ 72%] Built target bt_bumpgo
+[17.344s] [ 77%] [32m[1mLinking CXX shared library libbr2_forward_bt_node.so[0m
+[18.019s] [ 77%] Built target br2_forward_bt_node
+[18.922s] [ 83%] [32m[1mLinking CXX shared library libbr2_turn_bt_node.so[0m
+[19.358s] [ 83%] Built target br2_turn_bt_node
+[20.316s] [ 88%] [32m[1mLinking CXX shared library libbr2_back_bt_node.so[0m
+[21.100s] [ 88%] Built target br2_back_bt_node
+[23.550s] [ 94%] [32m[1mLinking CXX shared library libbr2_is_obstacle_bt_node.so[0m
+[24.085s] [ 94%] Built target br2_is_obstacle_bt_node
+[27.779s] [100%] [32m[1mLinking CXX executable bt_action_test[0m
+[28.610s] [100%] Built target bt_action_test
+[28.663s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_bt_bumpgo -- -j10 -l10
+[28.831s] Invoking command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_bt_bumpgo
+[36.166s] -- Install configuration: ""
+[36.166s] -- Execute custom install script
+[36.166s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_forward_bt_node.so
+[36.166s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_back_bt_node.so
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_turn_bt_node.so
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_bumpgo
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Back.hpp
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Forward.hpp
+[36.167s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/IsObstacle.hpp
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Turn.hpp
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/behavior_tree_xml/bumpgo.xml
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_forward
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/package_run_dependencies/br2_bt_bumpgo
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/parent_prefix_path/br2_bt_bumpgo
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.sh
+[36.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.dsv
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.sh
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.dsv
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.bash
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.sh
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.zsh
+[36.169s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.dsv
+[36.169s] -- Symlinking: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.dsv
+[36.170s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/packages/br2_bt_bumpgo
+[36.170s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.171s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.171s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig.cmake
+[36.171s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig-version.cmake
+[36.171s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.xml
+[36.197s] Invoked command in '/home/raul/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_bt_bumpgo

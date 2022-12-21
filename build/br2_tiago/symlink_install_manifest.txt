@@ -1,0 +1,16 @@
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/launch/sim.launch.py
+/home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/package_run_dependencies/br2_tiago
+/home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/parent_prefix_path/br2_tiago
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.sh
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.dsv
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.sh
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.dsv
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.bash
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.sh
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.zsh
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.dsv
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/package.dsv
+/home/raul/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/packages/br2_tiago
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig.cmake
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig-version.cmake
+/home/raul/bookros2_ws/install/br2_tiago/share/br2_tiago/package.xml

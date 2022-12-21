@@ -1,0 +1,8 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install/local.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/list_install_components.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rebuild_cache.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/edit_cache.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/test.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rosidl_cmake_uninstall.dir
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/uninstall.dir

@@ -1,0 +1,74 @@
+[0.411s] Invoking command in '/home/raul/bookros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/twist_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/twist_mux
+[0.462s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.500s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.500s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.844s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.855s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.925s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.258s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.510s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.514s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.589s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.782s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.937s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.996s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.999s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.999s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.032s] -- Added test 'xmllint' to check XML markup files
+[2.033s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.043s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/ThirdParty/twist_mux/include
+[2.043s] -- Configured cppcheck exclude dirs and/or files: 
+[2.052s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.052s] -- Configured cpplint exclude dirs and/or files: 
+[2.053s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.056s] -- Added test 'lint_cmake' to check CMake code style
+[2.057s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.063s] -- Added test 'uncrustify' to check C / C++ code style
+[2.063s] -- Configured uncrustify additional arguments: 
+[2.070s] -- Configuring done
+[2.115s] -- Generating done
+[2.119s] -- Build files have been written to: /home/raul/bookros2_ws/build/twist_mux
+[2.138s] Invoked command in '/home/raul/bookros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/twist_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/twist_mux
+[2.140s] Invoking command in '/home/raul/bookros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/twist_mux -- -j10 -l10
+[2.613s] [ 66%] Built target twist_mux
+[2.614s] [100%] Built target twist_marker
+[2.628s] Invoked command in '/home/raul/bookros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/twist_mux -- -j10 -l10
+[2.752s] Invoking command in '/home/raul/bookros2_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/twist_mux
+[2.784s] -- Install configuration: ""
+[2.784s] -- Execute custom install script
+[2.785s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_mux
+[2.785s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/lib/twist_mux/twist_marker
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux.launch
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/launch/twist_mux_launch.py
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/joystick.yaml
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_locks.yaml
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/config/twist_mux_topics.yaml
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/params_helpers.hpp
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/topic_handle.hpp
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux.hpp
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics.hpp
+[2.786s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics_status.hpp
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/include/twist_mux/utils.hpp
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/package_run_dependencies/twist_mux
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/parent_prefix_path/twist_mux
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.sh
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.dsv
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.sh
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/environment/path.dsv
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.bash
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.sh
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.zsh
+[2.787s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/local_setup.dsv
+[2.788s] -- Symlinking: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.dsv
+[2.810s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/ament_index/resource_index/packages/twist_mux
+[2.811s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.811s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.811s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig.cmake
+[2.812s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig-version.cmake
+[2.812s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/twist_mux/share/twist_mux/package.xml
+[2.850s] Invoked command in '/home/raul/bookros2_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/twist_mux

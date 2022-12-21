@@ -1,0 +1,55 @@
+[0.314s] Invoking command in '/home/raul/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/Groot -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/groot
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.765s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.783s] -- ---------------------
+[1.783s] -- Compiling with AMENT.
+[1.784s] -- ---------------------
+[1.819s] -- ZeroMQ found.
+[2.214s] -- Configuring done
+[3.088s] -- Generating done
+[3.101s] -- Build files have been written to: /home/raul/bookros2_ws/build/groot
+[3.258s] Invoked command in '/home/raul/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/Groot -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/groot
+[3.270s] Invoking command in '/home/raul/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/groot -- -j10 -l10
+[4.200s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[4.387s] [  1%] Built target QtNodeEditor_autogen
+[6.321s] [ 57%] Built target QtNodeEditor
+[6.774s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[7.281s] [ 58%] Built target behavior_tree_editor_autogen
+[7.874s] [ 74%] Built target behavior_tree_editor
+[8.478s] [ 75%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[8.531s] [ 76%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[8.585s] [ 76%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[8.937s] [ 76%] Built target replay_test_autogen
+[9.031s] [ 76%] Built target Groot_autogen
+[9.034s] [ 76%] Built target editor_test_autogen
+[9.545s] [ 85%] Built target replay_test
+[9.643s] [ 91%] Built target Groot
+[9.834s] [100%] Built target editor_test
+[9.935s] Invoked command in '/home/raul/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/groot -- -j10 -l10
+[11.816s] Invoking command in '/home/raul/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/groot
+[12.766s] -- Install configuration: ""
+[12.766s] -- Execute custom install script
+[12.766s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/lib/libbehavior_tree_editor.so
+[12.766s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/lib/groot/Groot
+[12.766s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/library_path.sh
+[12.767s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/library_path.dsv
+[12.767s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[12.767s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[12.767s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/ament_prefix_path.sh
+[12.767s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/ament_prefix_path.dsv
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/path.sh
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/environment/path.dsv
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/local_setup.bash
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/local_setup.sh
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/local_setup.zsh
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/local_setup.dsv
+[12.768s] -- Symlinking: /home/raul/bookros2_ws/install/groot/share/groot/package.dsv
+[12.768s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/ament_index/resource_index/packages/groot
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/cmake/grootConfig.cmake
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/cmake/grootConfig-version.cmake
+[12.769s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/groot/share/groot/package.xml
+[12.811s] Invoked command in '/home/raul/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/groot

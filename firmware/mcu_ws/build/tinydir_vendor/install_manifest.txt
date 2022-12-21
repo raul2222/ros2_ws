@@ -1,0 +1,4 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/install/include/tinydir/tinydir.h
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/package.xml
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig.cmake
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig-version.cmake

@@ -1,0 +1,104 @@
+[0.108s] Invoking command in '/home/raul/bookros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/gripper_controllers
+[0.297s] -- The C compiler identification is GNU 9.4.0
+[0.401s] -- The CXX compiler identification is GNU 9.4.0
+[0.405s] -- Check for working C compiler: /usr/bin/cc
+[0.518s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.520s] -- Detecting C compiler ABI info
+[0.672s] -- Detecting C compiler ABI info - done
+[0.693s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++
+[0.830s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.831s] -- Detecting CXX compiler ABI info
+[0.969s] -- Detecting CXX compiler ABI info - done
+[0.988s] -- Detecting CXX compile features
+[0.988s] -- Detecting CXX compile features - done
+[0.992s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.315s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.389s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.565s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.605s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.924s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.931s] -- Looking for pthread.h
+[2.039s] -- Looking for pthread.h - found
+[2.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.148s] -- Looking for pthread_create in pthreads
+[2.241s] -- Looking for pthread_create in pthreads - not found
+[2.241s] -- Looking for pthread_create in pthread
+[2.343s] -- Looking for pthread_create in pthread - found
+[2.345s] -- Found Threads: TRUE  
+[2.612s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[3.104s] -- Found control_toolbox: 2.1.1 (/opt/ros/foxy/share/control_toolbox/cmake)
+[3.129s] -- Found controller_interface: 0.7.1 (/home/raul/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[3.431s] -- Found ament_cmake_gmock: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.435s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.437s] -- Found controller_manager: 0.7.1 (/home/raul/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[3.510s] -- Found ros2_control_test_assets: 0.7.1 (/home/raul/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.662s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.670s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.770s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.770s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/gripper_controllers/include>
+[3.771s] -- Configured cppcheck exclude dirs and/or files: 
+[3.773s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.773s] -- Configured cpplint exclude dirs and/or files: 
+[3.776s] -- Added test 'lint_cmake' to check CMake code style
+[3.779s] -- Added test 'uncrustify' to check C / C++ code style
+[3.779s] -- Configured uncrustify additional arguments: 
+[3.780s] -- Added test 'xmllint' to check XML markup files
+[3.791s] -- Configuring done
+[3.894s] -- Generating done
+[3.902s] -- Build files have been written to: /home/raul/bookros2_ws/build/gripper_controllers
+[3.937s] Invoked command in '/home/raul/bookros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/gripper_controllers
+[3.938s] Invoking command in '/home/raul/bookros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/gripper_controllers -- -j8 -l8
+[4.016s] [35m[1mScanning dependencies of target gmock[0m
+[4.039s] [35m[1mScanning dependencies of target gripper_action_controller[0m
+[4.048s] [35m[1mScanning dependencies of target gmock_main[0m
+[4.071s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.095s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.129s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.133s] [ 44%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[7.886s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.058s] [ 55%] Built target gmock_main
+[12.860s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.962s] [ 66%] Built target gmock
+[12.982s] [35m[1mScanning dependencies of target test_load_gripper_action_controllers[0m
+[13.116s] [ 77%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[13.221s] [ 88%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[13.553s] [ 88%] Built target gripper_action_controller
+[20.063s] [100%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[21.429s] [100%] Built target test_load_gripper_action_controllers
+[21.448s] Invoked command in '/home/raul/bookros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raul/bookros2_ws/build/gripper_controllers -- -j8 -l8
+[21.537s] Invoking command in '/home/raul/bookros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/gripper_controllers
+[21.839s] -- Install configuration: ""
+[21.845s] -- Execute custom install script
+[21.845s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers//ros_control_plugins.xml
+[21.846s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/include/gripper_action_controller.hpp
+[21.846s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/include/gripper_action_controller_impl.hpp
+[21.846s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/include/hardware_interface_adapter.hpp
+[21.847s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/include/visibility_control.hpp
+[21.848s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[21.848s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[21.848s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[21.850s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[21.851s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[21.851s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[21.851s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[21.851s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[21.851s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[21.860s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[21.876s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[21.897s] -- Symlinking: /home/raul/bookros2_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[22.089s] Invoked command in '/home/raul/bookros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/controller_manager:/home/raul/bookros2_ws/install/controller_interface:/home/raul/bookros2_ws/install/hardware_interface:/home/raul/bookros2_ws/install/ros2_control_test_assets:/home/raul/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/raul/bookros2_ws/install/controller_manager/lib:/home/raul/bookros2_ws/install/controller_interface/lib:/home/raul/bookros2_ws/install/hardware_interface/lib:/home/raul/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raul/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/raul/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raul/bookros2_ws/build/gripper_controllers

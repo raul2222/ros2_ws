@@ -1,0 +1,67 @@
+[0.157s] Invoking command in '/home/raul/bookros2_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/hardware_interface -- -j8 -l8
+[0.277s] [ 17%] Built target hardware_interface
+[0.309s] [ 26%] Built target gmock
+[0.331s] [ 32%] Built target gmock_main
+[0.367s] [ 44%] Built target test_components
+[0.411s] [ 58%] Built target test_hardware_components
+[0.431s] [ 64%] Built target fake_components
+[0.480s] [ 70%] Built target test_generic_system
+[0.494s] [ 76%] Built target test_joint_handle
+[0.503s] [ 82%] Built target test_component_interfaces
+[0.504s] [ 88%] Built target test_macros
+[0.525s] [ 94%] Built target test_resource_manager
+[0.525s] [100%] Built target test_component_parser
+[0.566s] Invoked command in '/home/raul/bookros2_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/hardware_interface -- -j8 -l8
+[0.765s] Invoking command in '/home/raul/bookros2_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/hardware_interface
+[0.867s] -- Install configuration: ""
+[0.867s] -- Execute custom install script
+[0.867s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[0.867s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[0.868s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[0.868s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[0.891s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[0.916s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/base_interface.hpp
+[0.936s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[0.953s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[0.971s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[0.987s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[1.004s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[1.020s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[1.036s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[1.060s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[1.068s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[1.095s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[1.111s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[1.138s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[1.151s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[1.162s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+[1.176s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[1.192s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[1.206s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libfake_components.so
+[1.226s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libhardware_interface.so
+[1.237s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libtest_components.so
+[1.250s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[1.276s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[1.287s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[1.307s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[1.337s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[1.360s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[1.409s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[1.442s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[1.458s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[1.480s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[1.513s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[1.551s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[1.585s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[1.635s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[1.675s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[1.719s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[1.747s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[1.783s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[1.809s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.844s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.879s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.909s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[1.950s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[1.976s] -- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/package.xml
+[2.038s] Invoked command in '/home/raul/bookros2_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raul/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/hardware_interface

@@ -1,0 +1,42 @@
+[0.373s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pmb2_maps
+[0.466s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.466s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.812s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.960s] -- Configuring done
+[0.963s] -- Generating done
+[0.964s] -- Build files have been written to: /home/raul/bookros2_ws/build/pmb2_maps
+[0.967s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/ThirdParty/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/pmb2_maps
+[0.969s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pmb2_maps -- -j10 -l10
+[1.094s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pmb2_maps -- -j10 -l10
+[1.228s] Invoking command in '/home/raul/bookros2_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pmb2_maps
+[1.284s] -- Install configuration: ""
+[1.284s] -- Execute custom install script
+[1.285s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/config/map.pgm
+[1.286s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/config/map.yaml
+[1.286s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/config/mmap.yaml
+[1.286s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.pgm
+[1.287s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.yaml
+[1.287s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/mmap.yaml
+[1.290s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bmp
+[1.290s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bt
+[1.290s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.ot
+[1.291s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.pgm
+[1.292s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.yaml
+[1.292s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/mmap.yaml
+[1.292s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/transformation.yaml
+[1.292s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/ament_index/resource_index/package_run_dependencies/pmb2_maps
+[1.292s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/ament_index/resource_index/parent_prefix_path/pmb2_maps
+[1.293s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.sh
+[1.293s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.dsv
+[1.293s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/environment/path.sh
+[1.294s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/environment/path.dsv
+[1.294s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/local_setup.bash
+[1.296s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/local_setup.sh
+[1.296s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/local_setup.zsh
+[1.297s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/local_setup.dsv
+[1.297s] -- Symlinking: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/package.dsv
+[1.316s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/ament_index/resource_index/packages/pmb2_maps
+[1.316s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig.cmake
+[1.317s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig-version.cmake
+[1.317s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pmb2_maps/share/pmb2_maps/package.xml
+[1.433s] Invoked command in '/home/raul/bookros2_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pmb2_maps

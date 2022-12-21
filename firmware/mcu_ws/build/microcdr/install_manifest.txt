@@ -1,0 +1,8 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+/home/raul/bookros2_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+/home/raul/bookros2_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+/home/raul/bookros2_ws/firmware/mcu_ws/install/include/ucdr/config.h
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+/home/raul/bookros2_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

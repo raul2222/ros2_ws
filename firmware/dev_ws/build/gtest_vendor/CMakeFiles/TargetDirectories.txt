@@ -1,0 +1,5 @@
+/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor/CMakeFiles/install/local.dir
+/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor/CMakeFiles/install.dir
+/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor/CMakeFiles/list_install_components.dir
+/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor/CMakeFiles/rebuild_cache.dir
+/home/raul/bookros2_ws/firmware/dev_ws/build/gtest_vendor/CMakeFiles/edit_cache.dir

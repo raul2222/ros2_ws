@@ -1,0 +1,42 @@
+[0.115s] Invoking command in '/home/raul/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_basics -- -j8 -l8
+[0.383s] [ 14%] Built target logger
+[0.408s] [ 28%] Built target logger_class
+[0.423s] [ 42%] Built target executors
+[0.443s] [ 57%] Built target subscriber_class
+[0.443s] [ 71%] Built target publisher
+[0.444s] [ 85%] Built target param_reader
+[0.457s] [100%] Built target publisher_class
+[0.509s] Invoked command in '/home/raul/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_basics -- -j8 -l8
+[0.718s] Invoking command in '/home/raul/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_basics
+[0.756s] -- Install configuration: ""
+[0.757s] -- Execute custom install script
+[0.757s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/publisher
+[0.757s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/publisher_class
+[0.758s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber_class
+[0.758s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/executors
+[0.758s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/logger
+[0.759s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/logger_class
+[0.759s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/lib/br2_basics/param_reader
+[0.759s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/launch/includer_launch.py
+[0.759s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+[0.759s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+[0.760s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+[0.760s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+[0.761s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/config/params.yaml
+[0.761s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+[0.761s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+[0.761s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+[0.762s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+[0.762s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.sh
+[0.762s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.dsv
+[0.762s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.bash
+[0.762s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.sh
+[0.778s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.zsh
+[0.778s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.dsv
+[0.778s] -- Symlinking: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/package.dsv
+[0.801s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+[0.802s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.803s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+[0.804s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+[0.806s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_basics/share/br2_basics/package.xml
+[0.869s] Invoked command in '/home/raul/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_basics

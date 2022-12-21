@@ -1,0 +1,13 @@
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/ControllerState.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/HardwareInterface.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ConfigureController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ConfigureStartController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListControllers.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListControllerTypes.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListHardwareInterfaces.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/LoadConfigureController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/LoadController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/LoadStartController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ReloadControllerLibraries.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/SwitchController.idl
+/home/raul/bookros2_ws/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/UnloadController.idl

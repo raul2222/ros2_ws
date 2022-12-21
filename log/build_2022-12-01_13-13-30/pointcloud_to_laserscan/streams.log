@@ -1,0 +1,45 @@
+[0.121s] Invoking command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[0.270s] [35m[1mScanning dependencies of target dummy_pointcloud_publisher[0m
+[0.271s] [35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[0.319s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.343s] [ 30%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[0.343s] [ 50%] Built target laserscan_to_pointcloud_node
+[0.355s] [ 60%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[0.395s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[6.762s] [ 80%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[7.054s] [ 80%] Built target dummy_pointcloud_publisher
+[12.893s] [ 90%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[13.129s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[13.380s] [100%] Built target laserscan_to_pointcloud
+[13.572s] [100%] Built target pointcloud_to_laserscan
+[13.593s] Invoked command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[13.675s] Invoking command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pointcloud_to_laserscan
+[13.689s] -- Install configuration: ""
+[13.690s] -- Execute custom install script
+[13.691s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[13.692s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[13.694s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[13.694s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[13.696s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[13.697s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[13.698s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[13.698s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h
+[13.699s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[13.700s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[13.700s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[13.701s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[13.702s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[13.702s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[13.703s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[13.703s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[13.703s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[13.704s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[13.705s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[13.705s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[13.705s] -- Symlinking: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[13.721s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[13.722s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[13.723s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[13.723s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[13.724s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[13.729s] Invoked command in '/home/raul/bookros2_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/pointcloud_to_laserscan

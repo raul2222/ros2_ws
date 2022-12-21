@@ -1,0 +1,59 @@
+[0.103s] Invoking command in '/home/raul/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_tf2_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_tf2_detector
+[0.141s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.596s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.662s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.348s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.085s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.198s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.332s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.448s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.449s] -- Configured cppcheck include dirs: /home/raul/bookros2_ws/src/book_ros2/br2_tf2_detector/include
+[2.449s] -- Configured cppcheck exclude dirs and/or files: 
+[2.450s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.451s] -- Configured cpplint exclude dirs and/or files: 
+[2.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.452s] -- Added test 'lint_cmake' to check CMake code style
+[2.453s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.455s] -- Added test 'uncrustify' to check C / C++ code style
+[2.455s] -- Configured uncrustify additional arguments: 
+[2.456s] -- Added test 'xmllint' to check XML markup files
+[2.463s] -- Configuring done
+[2.512s] -- Generating done
+[2.517s] -- Build files have been written to: /home/raul/bookros2_ws/build/br2_tf2_detector
+[2.530s] Invoked command in '/home/raul/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/raul/bookros2_ws/src/book_ros2/br2_tf2_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raul/bookros2_ws/install/br2_tf2_detector
+[2.535s] Invoking command in '/home/raul/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tf2_detector -- -j10 -l10
+[2.822s] [ 50%] Built target br2_tf2_detector
+[2.973s] [ 75%] Built target detector
+[2.991s] [100%] Built target detector_improved
+[3.033s] Invoked command in '/home/raul/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/br2_tf2_detector -- -j10 -l10
+[3.213s] Invoking command in '/home/raul/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tf2_detector
+[3.248s] -- Install configuration: ""
+[3.248s] -- Execute custom install script
+[3.248s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so
+[3.249s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector
+[3.249s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved
+[3.249s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_basic.launch.py
+[3.250s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_improved.launch.py
+[3.250s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/package_run_dependencies/br2_tf2_detector
+[3.251s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/parent_prefix_path/br2_tf2_detector
+[3.252s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.sh
+[3.252s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.dsv
+[3.252s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.sh
+[3.253s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.dsv
+[3.253s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.bash
+[3.253s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.sh
+[3.254s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.zsh
+[3.254s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.dsv
+[3.254s] -- Symlinking: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.dsv
+[3.280s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/packages/br2_tf2_detector
+[3.280s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig.cmake
+[3.280s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig-version.cmake
+[3.281s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.xml
+[3.285s] Invoked command in '/home/raul/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/br2_tf2_detector

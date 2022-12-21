@@ -1,0 +1,28 @@
+[0.584s] Invoking command in '/home/raul/bookros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/urdf_test -- -j8 -l8
+[0.797s] Invoked command in '/home/raul/bookros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/raul/bookros2_ws/build/urdf_test -- -j8 -l8
+[1.107s] Invoking command in '/home/raul/bookros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/urdf_test
+[1.161s] -- Install configuration: ""
+[1.162s] -- Execute custom install script
+[1.162s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/lib/urdf_test/test_urdf.py
+[1.162s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/pythonpath.sh
+[1.162s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/pythonpath.dsv
+[1.168s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/lib/python3.8/site-packages/urdf_test/__init__.py
+[1.175s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/lib/python3.8/site-packages/urdf_test/description_test.py
+[1.176s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[1.176s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[1.178s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[1.187s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[1.196s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[1.196s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[1.196s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[1.197s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[1.199s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[1.199s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[1.200s] -- Symlinking: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/package.dsv
+[1.201s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[1.202s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.202s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[1.203s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[1.203s] -- Up-to-date symlink: /home/raul/bookros2_ws/install/urdf_test/share/urdf_test/package.xml
+[1.302s] Listing '/home/raul/bookros2_ws/install/urdf_test/lib/python3.8/site-packages/urdf_test'...
+[1.432s] Invoked command in '/home/raul/bookros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raul/bookros2_ws/install/ros2controlcli:/home/raul/bookros2_ws/install/launch_pal:/home/raul/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/raul/bookros2_ws/build/urdf_test

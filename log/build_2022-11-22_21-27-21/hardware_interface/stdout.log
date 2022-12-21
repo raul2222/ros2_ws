@@ -1,0 +1,63 @@
+[ 17%] Built target hardware_interface
+[ 26%] Built target gmock
+[ 32%] Built target gmock_main
+[ 44%] Built target test_components
+[ 58%] Built target test_hardware_components
+[ 64%] Built target fake_components
+[ 70%] Built target test_generic_system
+[ 76%] Built target test_joint_handle
+[ 82%] Built target test_component_interfaces
+[ 88%] Built target test_macros
+[ 94%] Built target test_resource_manager
+[100%] Built target test_component_parser
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/fake_components/visibility_control.h
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/base_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/system.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libfake_components.so
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libhardware_interface.so
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libtest_components.so
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/lib/libtest_hardware_components.so
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/package.dsv
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+-- Symlinking: /home/raul/bookros2_ws/install/hardware_interface/share/hardware_interface/package.xml

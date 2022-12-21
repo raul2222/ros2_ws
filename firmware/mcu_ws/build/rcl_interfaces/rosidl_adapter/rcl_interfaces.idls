@@ -1,0 +1,17 @@
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/FloatingPointRange.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/IntegerRange.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ListParametersResult.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Log.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterDescriptor.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEventDescriptors.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEvent.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Parameter.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterType.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterValue.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/SetParametersResult.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/DescribeParameters.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameters.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameterTypes.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/ListParameters.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParametersAtomically.idl
+/home/raul/bookros2_ws/firmware/mcu_ws/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParameters.idl

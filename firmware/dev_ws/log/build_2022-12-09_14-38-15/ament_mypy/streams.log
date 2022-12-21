@@ -1,0 +1,44 @@
+[0.958s] Invoking command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
+[1.202s] running egg_info
+[1.203s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[1.203s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[1.204s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[1.204s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[1.204s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[1.206s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.248s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.249s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.249s] running build
+[1.249s] running build_py
+[1.249s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build
+[1.250s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[1.250s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.250s] copying ament_mypy/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.251s] copying ament_mypy/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.251s] copying ament_mypy/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.251s] creating /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.251s] copying ament_mypy/configuration/ament_mypy.ini -> /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.251s] running install
+[1.252s] running install_lib
+[1.253s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.254s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[1.254s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[1.254s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.254s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.254s] copying /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.255s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/main.py to main.cpython-38.pyc
+[1.258s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/__init__.py to __init__.cpython-38.pyc
+[1.258s] byte-compiling /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.258s] running install_data
+[1.259s] copying package.xml -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[1.259s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[1.259s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[1.260s] creating /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[1.260s] copying resource/ament_mypy -> /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[1.260s] running install_egg_info
+[1.262s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.7-py3.8.egg-info
+[1.263s] running install_scripts
+[1.281s] Installing ament_mypy script to /home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/bin
+[1.281s] writing list of installed files to '/home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[1.654s] Invoked command in '/home/raul/bookros2_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint PATH=/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/raul/bookros2_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/raul/bookros2_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
